@@ -1,0 +1,95 @@
+<script setup>
+import { ref } from "vue";
+let is_hidden = ref(true);
+let is_searchbar = ref(false);
+let searchText = ref("");
+function handleHidden() {
+  is_hidden.value = !is_hidden.value;
+}
+</script>
+<template>
+  <q-header class="bg-primary text-black">
+    <q-toolbar>
+      <router-link class="no-decoration" :to="{ name: 'Home' }">
+        <q-avatar square size="2.5rem" color="primary">
+          <img
+            src="https://s3.brilliant.com.bd/simon_projects/kanak-logo-small.svg"
+          />
+        </q-avatar>
+      </router-link>
+      <q-space />
+      <router-link class="no-decoration" :to="{ name: 'Projects' }">
+        <transition
+          appear
+          enter-active-class="animated fadeInRight"
+          leave-active-class="animated fadeOutRight"
+        >
+          <q-btn
+            v-if="!is_hidden"
+            key="projects-btn"
+            flat
+            rounded
+            color="dark"
+            label="Projects"
+          />
+        </transition>
+      </router-link>
+      <router-link class="no-decoration" :to="{ name: 'Info' }">
+        <transition
+          appear
+          enter-active-class="animated fadeInRight"
+          leave-active-class="animated fadeOutRight"
+        >
+          <q-btn
+            v-if="!is_hidden"
+            key="info-btn"
+            flat
+            rounded
+            color="dark"
+            label="Info"
+          />
+        </transition>
+      </router-link>
+      <router-link class="no-decoration" :to="{ name: 'Contacts' }">
+        <transition
+          appear
+          enter-active-class="animated fadeInRight"
+          leave-active-class="animated fadeOutRight"
+        >
+          <q-btn
+            v-if="!is_hidden"
+            key="contacts-btn"
+            flat
+            rounded
+            color="dark"
+            label="Contacts"
+          />
+        </transition>
+      </router-link>
+      <q-btn @click="handleHidden" flat round dense icon="more_vert" />
+      <q-input
+        rounded
+        input-class="text-right"
+        outlined
+        dense
+        v-model="searchText"
+        debounce="500"
+        placeholder="Search"
+      >
+        <template v-slot:append>
+          <q-icon name="search" />
+        </template>
+      </q-input>
+      <!-- <q-btn flat round dense icon="search" /> -->
+    </q-toolbar>
+  </q-header>
+</template>
+<style scoped>
+.transitionEnter {
+  transition: width 2s linear 1s;
+}
+.no-decoration {
+  text-decoration: none;
+  color: inherit;
+}
+</style>
