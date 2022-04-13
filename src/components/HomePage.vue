@@ -26,9 +26,10 @@ export default {
       <q-carousel
         v-model="slideName"
         :autoplay="transitiontime"
+        no-route-fullscreen-exit
         animated
         infinite
-        height="100%"
+        height="90%"
         class="text-purple rounded-borders"
       >
         <q-carousel-slide name="a" class="column no-wrap flex-center">
@@ -105,7 +106,7 @@ export default {
 
 <style scoped>
 .transition-image {
-  width: 96rem;
-  height: 41.8rem;
+  width: auto;
+  height: 100%;
 }
 </style>
