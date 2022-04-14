@@ -1047,7 +1047,7 @@ export default {
   max-height: 1rem;
 }
 .q-pa-md {
-  flex: 0 0 1000px;
+  flex-grow: 1;
 }
 .row1 {
   display: grid;
