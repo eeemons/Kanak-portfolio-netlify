@@ -1031,7 +1031,7 @@ export default {
       <img src="https://s3.brilliant.com.bd/chinta/small/20.png" />
     </div>
 
-    <div class="q-pa-md" style="max-width: 350px">
+    <!-- <div class="q-pa-md" style="max-width: 350px">
       <q-list>
         <q-item clickable v-ripple>
           <q-item-section>LOCATION</q-item-section>
@@ -1051,7 +1051,7 @@ export default {
         </q-item>
       </q-list>
     </div>
-  </div>
+  </div> -->
   <!-- <div class="floating-window">
     <ul>
       <li>Location</li>
