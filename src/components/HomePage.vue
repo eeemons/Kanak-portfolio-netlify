@@ -106,7 +106,28 @@ export default {
 
 <style scoped>
 .transition-image {
-  width: auto;
-  height: 100%;
+  width: 100vw;
+  height: 90vh;
+}
+@media (max-width: 500px) {
+  .transition-image {
+    width: 100%;
+    height: auto;
+    padding-top: 60%;
+  }
+}
+@media (width: 820px) {
+  .transition-image {
+    width: 100%;
+    height: auto;
+    padding-top: 40%;
+  }
+}
+@media (width: 768px) {
+  .transition-image {
+    width: 100%;
+    height: auto;
+    padding-top: 35%;
+  }
 }
 </style>
