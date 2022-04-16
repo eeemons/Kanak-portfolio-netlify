@@ -1052,13 +1052,14 @@ export default {
       </q-list>
     </div>
   </div> -->
-  <!-- <div class="floating-window">
+    <!-- <div class="floating-window">
     <ul>
       <li>Location</li>
       <li>Grid</li>
       <li>Status</li>
     </ul>
   </div> -->
+  </div>
 </template>
 <style scoped>
 .container {
