@@ -113,7 +113,7 @@ export default {
   .transition-image {
     width: 100%;
     height: auto;
-    padding-top: 60%;
+    padding-top: 50%;
   }
 }
 @media (width: 820px) {
