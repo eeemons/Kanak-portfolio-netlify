@@ -20,7 +20,7 @@ export default {
 
 <template>
   <div class="container" v-show="container">
-    <div class="row1">
+    <div class="row">
       <div class="outsideWrap">
         <img
           src="https://s3.brilliant.com.bd/chinta/small/01.png"
@@ -342,7 +342,7 @@ export default {
         </div>
       </div>
     </div>
-    <div class="row2">
+    <div class="row">
       <div class="outsideWrap">
         <img
           src="https://s3.brilliant.com.bd/chinta/small/01.png"
@@ -664,7 +664,7 @@ export default {
         </div>
       </div>
     </div>
-    <div class="row3">
+    <div class="row">
       <div class="outsideWrap">
         <img
           src="https://s3.brilliant.com.bd/chinta/small/01.png"
@@ -986,7 +986,7 @@ export default {
         </div>
       </div>
     </div>
-    <div class="row4">
+    <div class="row">
       <img src="https://s3.brilliant.com.bd/chinta/small/01.png" />
       <img src="https://s3.brilliant.com.bd/chinta/small/02.png" />
       <img src="https://s3.brilliant.com.bd/chinta/small/03.png" />
@@ -1008,7 +1008,7 @@ export default {
       <img src="https://s3.brilliant.com.bd/chinta/small/19.png" />
       <img src="https://s3.brilliant.com.bd/chinta/small/20.png" />
     </div>
-    <div class="row5">
+    <div class="row">
       <img src="https://s3.brilliant.com.bd/chinta/small/01.png" />
       <img src="https://s3.brilliant.com.bd/chinta/small/02.png" />
       <img src="https://s3.brilliant.com.bd/chinta/small/03.png" />
@@ -1072,48 +1072,25 @@ export default {
 .q-pa-md {
   flex-direction: column;
 }
-.row1 {
+.row {
   display: grid;
   height: 100vh; /* percent relative to viewport height */
   float: left;
-  overflow: scroll;
+  overflow: auto;
 }
-.row1::-webkit-scrollbar {
+.row::-webkit-scrollbar {
   width: 3px; /* width of the entire scrollbar */
 }
 
-.row1::-webkit-scrollbar-track {
+.row::-webkit-scrollbar-track {
   background: lightgray; /* color of the tracking area */
 }
 
-.row1::-webkit-scrollbar-thumb {
+.row::-webkit-scrollbar-thumb {
   background-color: black; /* color of the scroll thumb */
   border-radius: 20px; /* roundness of the scroll thumb */
 }
-.row2 {
-  display: grid;
-  height: 100vh; /* percent relative to viewport height */
-  float: left;
-  overflow: scroll;
-}
-.row3 {
-  display: grid;
-  height: 100vh; /* percent relative to viewport height */
-  float: left;
-  overflow: scroll;
-}
-.row4 {
-  display: grid;
-  height: 100vh; /* percent relative to viewport height */
-  float: left;
-  overflow: scroll;
-}
-.row5 {
-  display: grid;
-  height: 100vh; /* percent relative to viewport height */
-  float: left;
-  overflow: scroll;
-}
+
 .container img {
   width: 22.5rem;
   height: 12.5rem;
