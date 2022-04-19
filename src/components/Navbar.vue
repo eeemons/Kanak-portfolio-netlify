@@ -98,6 +98,7 @@ export default {
         <!-- <q-btn flat round dense icon="search" /> -->
         <div class="searchbar">
           <input class="text" type="text" />
+          <span class="diagonal"> </span>
           <!-- <img class="search-icon" src="../assets/search-Icon.png" /> -->
         </div>
       </q-toolbar>
@@ -132,5 +133,20 @@ export default {
   height: 1.5rem;
   caret-color: red;
   text-align: right;
+}
+.diagonal {
+  display: inline-block;
+  transform: rotate(-53deg);
+  height: 8px;
+  margin-left: 2px;
+  border-left: solid red 1px;
+  vertical-align: -8px;
+  transition: 0.3s;
+}
+
+.text:focus ~ .diagonal {
+  height: 0px;
+  transform: translate(-19px, -18px);
+  transition: 0.3s ease-in-out;
 }
 </style>
