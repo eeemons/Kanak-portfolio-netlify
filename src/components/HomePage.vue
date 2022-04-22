@@ -1,8 +1,9 @@
 <script setup>
 import { ref } from "vue";
 const slideName = ref("");
-const transitiontime = ref(2000);
+const transitiontime = ref(8000);
 </script>
++
 
 <script>
 export default {
@@ -19,7 +20,7 @@ export default {
 </script>
 
 <template>
-  <div v-show="home">
+  <div class="home" v-show="home">
     <q-page-container class="bg-primary row justify-center items-center">
       <!-- <div class="row justify-center items-center"> -->
 
@@ -105,9 +106,17 @@ export default {
 </template>
 
 <style scoped>
+.home {
+  display: grid;
+}
 .transition-image {
-  width: 100vw;
-  height: 90vh;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+  max-height: 668px;
+  overflow: hidden;
+  justify-items: center;
 }
 @media (max-width: 500px) {
   .transition-image {
