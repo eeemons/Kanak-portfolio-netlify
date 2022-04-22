@@ -74,7 +74,7 @@ export default {
                 </li>
               </ul>
             </q-card-section>
-            <q-separator vertical />
+
             <q-card-section>
               <div class="mapouter">
                 <div class="gmap_canvas">
@@ -106,8 +106,8 @@ export default {
 .contact {
   display: flex;
   overflow-x: auto;
-  justify-content: unset;
-  padding: 5rem;
+  justify-content: flex-start;
+  padding-left: 10%;
 }
 .studio-image {
   width: 15rem;
@@ -117,21 +117,22 @@ export default {
   padding-top: 5rem;
 }
 .middle-text {
-  padding-top: 4.5rem;
+  padding-top: 38%;
 }
 .mapouter {
   position: relative;
   text-align: right;
-  height: 25rem;
-  width: 25rem;
+  height: 40rem;
+  width: 40rem;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
-.gmap_canvas {
+#gmap_canvas {
   overflow: hidden;
   background: none !important;
-  height: 25rem;
-  width: 25rem;
+  height: 24rem;
+  width: 40rem;
+  transform: translate(20%, 0px);
 }
 .social-link {
   display: flex;

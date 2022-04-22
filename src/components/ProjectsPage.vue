@@ -31,8 +31,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -47,8 +46,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -63,8 +61,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -79,8 +76,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -95,8 +91,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -111,8 +106,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -127,8 +121,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -143,8 +136,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -159,8 +151,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -175,8 +166,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -191,8 +181,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -207,8 +196,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -223,8 +211,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -239,8 +226,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -255,8 +241,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -271,8 +256,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -287,8 +271,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -303,8 +286,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -319,8 +301,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -335,8 +316,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -353,8 +333,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -369,8 +348,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -385,8 +363,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -401,8 +378,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -417,8 +393,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -433,8 +408,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -449,8 +423,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -465,8 +438,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -481,8 +453,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -497,8 +468,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -513,8 +483,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -529,8 +498,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -545,8 +513,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -561,8 +528,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -577,8 +543,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -593,8 +558,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -609,8 +573,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -625,8 +588,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -641,8 +603,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -657,8 +618,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -675,8 +635,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -691,8 +650,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -707,8 +665,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -723,8 +680,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -739,8 +695,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -755,8 +710,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -771,8 +725,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -787,8 +740,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -803,8 +755,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -819,8 +770,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -835,8 +785,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -851,8 +800,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -867,8 +815,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -883,8 +830,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -899,8 +845,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -915,8 +860,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -931,8 +875,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -947,8 +890,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -963,8 +905,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -979,8 +920,7 @@ export default {
           <div class="text">
             <p>
               Project: Project_name <br />
-              Location:Project_location<br />
-              Date:00/00/00
+              Location &emsp; Date:00/00/00
             </p>
           </div>
         </div>
@@ -1087,7 +1027,7 @@ export default {
 }
 
 .row::-webkit-scrollbar-thumb {
-  background-color: black; /* color of the scroll thumb */
+  background-color: red; /* color of the scroll thumb */
   border-radius: 20px; /* roundness of the scroll thumb */
 }
 
@@ -1115,7 +1055,7 @@ export default {
   left: 0;
   right: 0;
   background-color: black;
-  opacity: 0.8;
+  opacity: 0.6;
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -1123,7 +1063,7 @@ export default {
 }
 
 .outsideWrap:hover .overlay {
-  height: 50%;
+  height: 28%;
 }
 
 .text {
