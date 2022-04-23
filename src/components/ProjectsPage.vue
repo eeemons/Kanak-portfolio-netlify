@@ -1611,18 +1611,17 @@ export default {
 }
 
 .outsideWrap:hover .overlay {
-  height: 28%;
+  height: 29%;
 }
 
 .text {
   color: white;
-  font-size: 12px;
+  font-size: 10px;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 70%;
+  left: 30%;
   -webkit-transform: translate(-40%, -50%);
   -ms-transform: translate(-40%, -50%);
   transform: translate(-40%, -50%);
-  text-align: center;
 }
 </style>
