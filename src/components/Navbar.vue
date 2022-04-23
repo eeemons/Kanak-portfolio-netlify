@@ -182,7 +182,4 @@ button {
 .menu:hover {
   color: rgb(196, 2, 2);
 }
-.menu:hover:after {
-  width: 100%;
-}
 </style>
