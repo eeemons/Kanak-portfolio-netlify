@@ -1,12 +1,24 @@
 <script>
 import { ref } from "vue";
+import FeedbackForm from "./FeedbackForm.vue";
 
 export default {
+  components: {
+    FeedbackForm,
+  },
   setup() {
+    const popupTriggers = ref({
+      buttonTrigger: false,
+    });
+    const TogglePopup = (trigger) => {
+      popupTriggers.value[trigger] = !popupTriggers.value[trigger];
+    };
     return {
       text: ref(""),
       ph: ref(""),
       dense: ref(false),
+      popupTriggers,
+      TogglePopup,
     };
   },
 };
@@ -37,7 +49,14 @@ export default {
                   </template>
 
                   <template v-slot:after>
-                    <q-btn round color="black" dense flat icon="send" />
+                    <q-btn
+                      @click="() => TogglePopup('buttonTrigger')"
+                      round
+                      color="black"
+                      dense
+                      flat
+                      icon="send"
+                    />
                   </template>
                 </q-input>
                 <br />
@@ -99,6 +118,11 @@ export default {
         </q-card>
       </div>
     </q-page-container>
+    <FeedbackForm
+      v-if="popupTriggers.buttonTrigger"
+      :TogglePopup="() => TogglePopup('buttonTrigger')"
+    >
+    </FeedbackForm>
   </div>
 </template>
 
