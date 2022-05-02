@@ -42,7 +42,16 @@ export default {
           Contacts
         </ul>
       </router-link>
-      <button v-on:click="isVisible = !isVisible">&vellip;</button>
+      <button v-on:click="isVisible = !isVisible" v-show="!isVisible">
+        &vellip;
+      </button>
+      <button
+        style="color: red"
+        v-on:click="isVisible = !isVisible"
+        v-show="isVisible"
+      >
+        &#124;
+      </button>
       <div v-on:click="isVisible = false" class="searchbar">
         <input class="text" type="text" />
         <span class="diagonal"> </span>
@@ -179,7 +188,51 @@ button {
   transform-origin: bottom right;
   transition: 0.3s;
 }
-.menu:hover {
-  color: rgb(196, 2, 2);
+
+.menu {
+  display: inline-block;
+  position: relative;
+}
+
+.menu:after {
+  content: "";
+  position: absolute;
+  width: 70%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 2rem;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.menu:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+@media screen and (max-width: 700px) {
+  .menu {
+    display: inline-block;
+    position: relative;
+  }
+
+  .menu:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  .menu:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 }
 </style>
