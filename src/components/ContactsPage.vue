@@ -6,6 +6,11 @@ export default {
   components: {
     FeedbackForm,
   },
+  data() {
+    return {
+      show: false,
+    };
+  },
   setup() {
     const popupTriggers = ref({
       buttonTrigger: false,
@@ -31,36 +36,17 @@ export default {
           <q-card-section horizontal>
             <q-card-section>
               <div class="middle-text">
-                <!-- <h4 class="feedback">DROP US A LINE!</h4> -->
-                <q-input
-                  v-model="text"
-                  label="DROP US A LINE!"
-                  label-color="black"
-                  maxlength="120"
-                  :dense="dense"
-                >
-                  <template v-slot:append>
-                    <q-icon
-                      v-if="text !== ''"
-                      name="close"
-                      @click="text = ''"
-                      class="cursor-pointer"
-                    />
-                  </template>
-
-                  <template v-slot:after>
-                    <q-btn
-                      @click="() => TogglePopup('buttonTrigger')"
-                      round
-                      color="black"
-                      dense
-                      flat
-                      icon="send"
-                    />
-                  </template>
-                </q-input>
+                <div class="tagline" v-show="!show">
+                  <p @click="show = !show">DROP US A LINE</p>
+                </div>
+                <div v-show="show" class="feedbackInput">
+                  <input type="text" />
+                  <button @click="() => TogglePopup('buttonTrigger')">
+                    &#9654;
+                  </button>
+                </div>
                 <br />
-                <p>
+                <p @click="show = false">
                   We would love to hear from you so don't hesitate to say hi!
                 </p>
 
@@ -127,6 +113,10 @@ export default {
 </template>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+}
 .contact {
   display: flex;
   overflow-x: auto;
@@ -170,24 +160,52 @@ export default {
   color: black;
   font-weight: 700;
 }
-.feedback:hover {
-  color: rgb(0, 175, 234);
+
+.feedbackInput {
+  display: flex;
+  flex-direction: row;
+}
+.feedbackInput input {
+  width: 60%;
+  height: 23.2px;
+  border: solid 2px black;
+  align-items: right;
+  justify-content: right;
+  outline: none;
+  text-align: right;
+  caret-color: blue;
+}
+.feedbackInput button {
+  color: white;
+  background: black;
+  outline: none;
+  border: none;
+  width: 10%;
+  height: 23.2px;
 }
 
-.feedback:after {
+.tagline {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.tagline:after {
   content: "";
   position: absolute;
-  background-color: rgb(20, 132, 177);
-  height: 3px;
-  width: 0;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 14px;
   left: 0;
-  bottom: -5px;
+  background-color: #0087ca;
   transform-origin: bottom right;
-  transition: 0.3s;
-  transform: translate(0px, -16rem);
+  transition: transform 0.25s ease-out;
 }
 
-.feedback:hover:after {
-  width: 18rem;
+.tagline:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 </style>
