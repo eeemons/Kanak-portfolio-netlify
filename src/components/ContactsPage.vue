@@ -9,6 +9,7 @@ export default {
   data() {
     return {
       show: false,
+      feedbacktxt: "",
     };
   },
   setup() {
@@ -39,8 +40,16 @@ export default {
                 <div class="tagline" v-show="!show">
                   <p @click="show = !show">DROP US A LINE</p>
                 </div>
+                <!-- <div class="ftxt">{{ feedbacktxt }}</div> -->
+                <textarea
+                  v-model="feedbacktxt"
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                ></textarea>
                 <div v-show="show" class="feedbackInput">
-                  <input type="text" />
+                  <input type="text" v-model="feedbacktxt" />
                   <button @click="() => TogglePopup('buttonTrigger')">
                     &#9654;
                   </button>
@@ -147,6 +156,16 @@ export default {
   height: 24rem;
   width: 40rem;
   transform: translate(20%, 0px);
+}
+.ftxt {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+textarea {
+  transform: 0;
 }
 .social-link {
   display: flex;

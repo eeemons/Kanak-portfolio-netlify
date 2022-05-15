@@ -27,21 +27,25 @@ export default {
       />
     </router-link>
     <ul class="menuItems">
-      <router-link class="no-decoration" :to="{ name: 'Projects' }">
-        <ul v-show="isVisible" class="menu">
-          Projects
-        </ul>
-      </router-link>
-      <router-link class="no-decoration" :to="{ name: 'Info' }">
-        <ul v-show="isVisible" class="menu">
-          Info
-        </ul>
-      </router-link>
-      <router-link class="no-decoration" :to="{ name: 'Contacts' }">
-        <ul v-show="isVisible" class="menu">
-          Contacts
-        </ul>
-      </router-link>
+      <transition name="slide-fade">
+        <div :class="{ invisible: !isVisible }">
+          <router-link class="no-decoration" :to="{ name: 'Projects' }">
+            <ul class="menu">
+              Projects
+            </ul>
+          </router-link>
+          <router-link class="no-decoration" :to="{ name: 'Info' }">
+            <ul class="menu">
+              Info
+            </ul>
+          </router-link>
+          <router-link class="no-decoration" :to="{ name: 'Contacts' }">
+            <ul class="menu">
+              Contacts
+            </ul>
+          </router-link>
+        </div>
+      </transition>
       <button v-on:click="isVisible = !isVisible" v-show="!isVisible">
         &vellip;
       </button>
@@ -60,9 +64,14 @@ export default {
   </div>
 </template>
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+}
 .top {
   display: flex;
   justify-content: space-around;
+  position: relative;
   padding-top: 1rem;
   overflow: auto;
   flex-grow: 0;
@@ -70,6 +79,21 @@ export default {
 .menuItems {
   display: flex;
   overflow: visible;
+  transform-origin: right;
+  transition: transform 0.4s ease-in-out;
+}
+.slide-fade-enter-active {
+  transition: all 0.3s ease-out;
+}
+
+.slide-fade-leave-active {
+  transition: all 0.3s ease-in-out;
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translateX(20px);
+  opacity: 0;
 }
 .menu {
   padding-top: 4px;
@@ -111,7 +135,7 @@ button {
 .logo {
   height: 2.5rem;
   widows: 2.5rem;
-  padding-right: 17rem;
+  padding-right: 6rem;
 }
 
 .text:focus {
