@@ -1538,6 +1538,10 @@ export default {
   </div>
 </template>
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+}
 .container {
   padding-top: 2rem;
   display: flex;
@@ -1555,7 +1559,7 @@ export default {
 .floatingWindow a {
   text-decoration: none;
   color: black;
-  font-weight: 500;
+  font-weight: 800;
 }
 .floatingWindow a:hover {
   color: red;
@@ -1564,7 +1568,8 @@ export default {
   display: grid;
   height: 57vh; /* percent relative to viewport height */
   float: left;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .row::-webkit-scrollbar {
   width: 3px; /* width of the entire scrollbar */
@@ -1587,11 +1592,7 @@ export default {
 .container img:hover {
   cursor: pointer;
 }
-/* .container img:hover {
-  cursor: pointer;
-  transition: 0.5s;
-  transform: scale(1.5);
-} */
+
 .outsideWrap {
   position: relative;
   width: 100%;
