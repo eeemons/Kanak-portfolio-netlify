@@ -135,6 +135,7 @@ button {
   border-radius: 1.563rem;
   border: 1.5px solid black;
   transition: 0.3s;
+  caret-color: red;
 }
 .text:focus {
   border-radius: 1.563rem;
@@ -145,7 +146,6 @@ button {
   caret-color: red;
   text-align: right;
   outline: 1px solid black;
-  cursor: url(./assets/cursor.cur);
 }
 .diagonal {
   display: inline-block;
