@@ -133,17 +133,19 @@ button {
   width: 1rem;
   height: 1rem;
   border-radius: 1.563rem;
-  border: 1.7px solid black;
+  border: 1.5px solid black;
   transition: 0.3s;
 }
 .text:focus {
   border-radius: 1.563rem;
-  border: 1px solid black;
+  border: 1.5px black;
   padding: 0.4rem;
   width: 12.5rem;
   height: 1rem;
   caret-color: red;
   text-align: right;
+  outline: 1px solid black;
+  cursor: url(./assets/cursor.cur);
 }
 .diagonal {
   display: inline-block;
@@ -177,7 +179,7 @@ button {
   }
   .text:focus {
     border-radius: 1.563rem;
-    border: 2px solid black;
+    border: 1.5px solid black;
     padding: 0.4rem;
     width: 4rem;
     height: 1rem;
@@ -191,7 +193,7 @@ button {
 @media screen and (max-width: 827px) {
   .text:focus {
     border-radius: 1.563rem;
-    border: 2px solid black;
+    border: 1.5px solid black;
     padding: 0.4rem;
     width: 6rem;
     height: 1rem;
