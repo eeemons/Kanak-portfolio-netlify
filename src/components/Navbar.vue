@@ -31,17 +31,17 @@ export default {
         <div :class="{ invisible: !isVisible }">
           <router-link class="no-decoration" :to="{ name: 'Projects' }">
             <ul class="menu">
-              Projects
+              <li>Projects</li>
             </ul>
           </router-link>
           <router-link class="no-decoration" :to="{ name: 'Info' }">
             <ul class="menu">
-              Info
+              <li>Info</li>
             </ul>
           </router-link>
           <router-link class="no-decoration" :to="{ name: 'Contacts' }">
             <ul class="menu">
-              Contacts
+              <li>Contacts</li>
             </ul>
           </router-link>
         </div>
@@ -70,17 +70,19 @@ export default {
 }
 .top {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   position: relative;
-  padding-top: 1rem;
-  overflow: auto;
-  flex-grow: 0;
+  padding-top: 1%;
+}
+li {
+  list-style-type: none;
 }
 .menuItems {
   display: flex;
   overflow: visible;
   transform-origin: right;
   transition: transform 0.4s ease-in-out;
+  margin-left: 35%;
 }
 .slide-fade-enter-active {
   transition: all 0.3s ease-out;
@@ -118,29 +120,25 @@ button {
 .searchbar {
   display: inline;
   float: right;
-  padding-left: 1rem;
+  padding-left: 8px;
   padding-top: 3px;
 }
-.search-icon {
-  height: 1.4rem;
-  width: 1.7rem;
-}
-.text {
-  width: 1rem;
-  height: 1rem;
-  border-radius: 1.563rem;
-  border: 2px solid black;
-  transition: 0.3s;
-}
+
 .logo {
   height: 2.5rem;
   widows: 2.5rem;
   padding-right: 6rem;
 }
-
+.text {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 1.563rem;
+  border: 1.7px solid black;
+  transition: 0.3s;
+}
 .text:focus {
   border-radius: 1.563rem;
-  border: 2px solid black;
+  border: 1px solid black;
   padding: 0.4rem;
   width: 12.5rem;
   height: 1rem;
@@ -201,25 +199,13 @@ button {
     text-align: right;
   }
 }
-.menu:after {
-  content: "";
-  position: absolute;
-  background-color: rgb(20, 132, 177);
-  height: 3px;
-  width: 0;
-  left: 0;
-  bottom: -5px;
-  transform-origin: bottom right;
-  transition: 0.3s;
-}
-
 .menu {
   display: inline-block;
   position: relative;
 }
-
 .menu:after {
   content: "";
+  background-color: rgb(20, 132, 177);
   position: absolute;
   width: 70%;
   transform: scaleX(0);
@@ -230,7 +216,6 @@ button {
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
-
 .menu:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;

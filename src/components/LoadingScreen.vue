@@ -19,12 +19,10 @@ export default {
 
 <style>
 .loadingScreen img {
-  width: 40rem;
-  height: 20rem;
+  width: auto;
+  height: 160px;
 }
 .loadingScreen {
-  display: flex;
-  justify-content: center;
-  transform: translate(0%, 50%);
+  transform: translate(40vw, 35vh);
 }
 </style>

@@ -65,8 +65,10 @@ export default {
                 </p>
 
                 <p>
-                  Chinta Sthapatya 145/D1 Green Road<br />
-                  Dhaka-1215
+                  CHINTA STHAPATYA, Level-5, House-25/2, Road No-15 (new) 28
+                  (old)
+                  <br />
+                  Dhaka 1205, Bangladesh
                 </p>
               </div>
               <ul class="social-link">
@@ -93,19 +95,15 @@ export default {
               <div class="mapouter">
                 <div class="gmap_canvas">
                   <iframe
-                    width="400rem"
-                    height="400rem"
+                    width="600"
+                    height="500"
                     id="gmap_canvas"
-                    src="https://maps.google.com/maps?q=CHINTA%20STHAPATYA&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    src="https://maps.google.com/maps?q=Chinta,%20CHINTA%20STHAPATYA,%20Level-5&t=&z=13&ie=UTF8&iwloc=&output=embed"
                     frameborder="0"
                     scrolling="no"
                     marginheight="0"
                     marginwidth="0"
                   ></iframe>
-                  <br />
-                  <!-- <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>
-                        <a href="https://www.embedgooglemap.net">embedded maps google</a>
-                        <style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style> -->
                 </div>
               </div>
             </q-card-section>
@@ -140,20 +138,18 @@ export default {
   padding-top: 5rem;
 }
 .middle-text {
-  padding-top: 38%;
+  padding-top: 16%;
 }
 .mapouter {
   position: relative;
   text-align: right;
-  height: 40rem;
-  width: 40rem;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 #gmap_canvas {
   overflow: hidden;
   background: none !important;
-  height: 24rem;
+  height: 28rem;
   width: 40rem;
   transform: translate(20%, 0px);
 }
@@ -191,7 +187,6 @@ textarea {
   align-items: right;
   justify-content: right;
   outline: none;
-  text-align: right;
   caret-color: blue;
 }
 .feedbackInput button {
