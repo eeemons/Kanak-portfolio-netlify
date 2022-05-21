@@ -3,13 +3,29 @@
     <div class="popup-inner">
       <slot />
       <div class="user-form">
-        <h2>User Credentials</h2>
-        <form>
-          <input type="text" name="field1" placeholder="Full Name" />
-          <input type="email" name="field2" placeholder="Email" />
-          <input type="button" value="Send Message" />
-          <input type="button" @click="TogglePopup()" value="Close" />
-        </form>
+        <div class="container">
+          <div class="name">
+            <input type="text" placeholder="Your Name" />
+            <button @click="TogglePopup()">x</button>
+          </div>
+          <br />
+          <div class="company">
+            <input type="text" placeholder="Company Name" />
+          </div>
+          <br />
+          <div class="subject">
+            <input type="text" placeholder="Subject" />
+          </div>
+          <br />
+          <div class="email">
+            <input type="text" placeholder="Email Adress" />
+          </div>
+          <br />
+          <div class="contact">
+            <input type="text" placeholder="Contact Number(Optional)" />
+          </div>
+        </div>
+        <button class="submit" @keyup.enter="submit()">&#10004;</button>
       </div>
     </div>
   </div>
@@ -22,6 +38,8 @@ export default {
 </script>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap");
+
 .popup {
   position: fixed;
   top: 0;
@@ -39,8 +57,8 @@ export default {
   padding: 5%;
 }
 .user-form {
-  font-family: "Open Sans Condensed", arial, sans;
-  width: 100%;
+  font-family: "Lato", sans-serif;
+  width: 300px;
   padding: 30px;
   background: #ffffff;
   margin: auto;
@@ -48,57 +66,44 @@ export default {
   -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
   -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
 }
-.user-form h2 {
-  background: #4d4d4d;
-  text-transform: uppercase;
-  font-family: "Open Sans Condensed", sans-serif;
-  color: #797979;
-  font-size: 2rem;
-  font-weight: 100;
-  padding: 20px;
-  margin: -30px -30px 30px -30px;
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
 }
-.user-form input[type="text"],
-.user-form input[type="email"],
-.user-form textarea,
-.user-form select {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+
+input {
+  width: 230px;
+  height: 20px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  font-family: "Lato", sans-serif;
+}
+input:focus {
   outline: none;
-  display: block;
-  width: 100%;
-  padding: 7px;
+}
+.name button {
+  transform: translate(22px, -25px);
+  background: none;
+  color: inherit;
   border: none;
-  border-bottom: 1px solid #ddd;
-  background: transparent;
-  margin-bottom: 10px;
-  font: 16px Arial, Helvetica, sans-serif;
-  height: 45px;
-}
-.user-form textarea {
-  resize: none;
-  overflow: hidden;
-}
-.user-form input[type="button"],
-.user-form input[type="submit"] {
-  -moz-box-shadow: inset 0px 1px 0px 0px #45d6d6;
-  -webkit-box-shadow: inset 0px 1px 0px 0px #45d6d6;
-  box-shadow: inset 0px 1px 0px 0px #45d6d6;
-  background-color: #2cbbbb;
-  border: 1px solid #27a0a0;
-  display: inline-block;
+  padding: 0;
+  font: inherit;
   cursor: pointer;
-  color: #ffffff;
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 14px;
-  padding: 8px 18px;
-  text-decoration: none;
-  text-transform: uppercase;
+  outline: inherit;
+  color: red;
 }
-.user-form input[type="button"]:hover,
-.user-form input[type="submit"]:hover {
-  background: linear-gradient(to bottom, #34caca 5%, #30c9c9 100%);
-  background-color: #34caca;
+.submit {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  transform: translate(245px, 10px);
 }
 </style>
