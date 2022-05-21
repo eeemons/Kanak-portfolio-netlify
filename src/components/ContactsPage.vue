@@ -25,6 +25,7 @@ export default {
       dense: ref(false),
       popupTriggers,
       TogglePopup,
+      isVisible: false,
     };
   },
 };
@@ -37,17 +38,19 @@ export default {
           <q-card-section horizontal>
             <q-card-section>
               <div class="middle-text">
-                <div class="tagline" v-show="!show">
-                  <p @click="show = !show">DROP US A LINE</p>
-                </div>
-                <!-- <div class="ftxt">{{ feedbacktxt }}</div> -->
                 <textarea
+                  :class="{ invisible: (isVisible = !isVisible) }"
                   v-model="feedbacktxt"
                   name=""
                   id=""
                   cols="30"
                   rows="10"
                 ></textarea>
+                <div class="tagline" v-show="!show">
+                  <p @click="show = !show">DROP US A LINE</p>
+                </div>
+                <!-- <div class="ftxt">{{ feedbacktxt }}</div> -->
+
                 <div v-show="show" class="feedbackInput">
                   <input type="text" v-model="feedbacktxt" />
                   <button @click="() => TogglePopup('buttonTrigger')">
@@ -134,11 +137,10 @@ export default {
   width: 15rem;
   height: 15rem;
 }
-.card-width {
-  padding-top: 5rem;
-}
+
 .middle-text {
-  padding-top: 16%;
+  margin-top: 10%;
+  margin-left: 24%;
 }
 .mapouter {
   position: relative;
@@ -151,7 +153,7 @@ export default {
   background: none !important;
   height: 28rem;
   width: 40rem;
-  transform: translate(20%, 0px);
+  margin-top: 10%;
 }
 .ftxt {
   background-color: lightgrey;
@@ -169,6 +171,7 @@ textarea {
   min-width: 18rem;
   list-style-type: none;
   padding: 0;
+  margin-left: 24%;
 }
 .social-link a {
   text-decoration: none;
