@@ -32,7 +32,7 @@ export default {
 </script>
 <template>
   <div class="contact">
-    <q-page-container class="bg-primary row justify-center items-center">
+    <q-page-container class="bg-primary row justify-center">
       <div class="card-width">
         <q-card class="my-card" flat>
           <q-card-section horizontal>
@@ -128,8 +128,10 @@ export default {
   font-family: "Lato", sans-serif;
 }
 .contact {
-  transform: translate(5vw, 10%);
+  display: flex;
   overflow-x: auto;
+  justify-content: flex-start;
+  padding-left: 10%;
 }
 .studio-image {
   width: 15rem;
@@ -159,7 +161,9 @@ export default {
   padding: 50px;
   margin: 20px;
 }
-
+textarea {
+  transform: 0;
+}
 .social-link {
   display: flex;
   justify-content: space-between;
@@ -196,17 +200,17 @@ export default {
 }
 
 .tagline {
-  display: inline-block;
+  display: flex;
   position: relative;
   font-size: 14px;
   font-weight: 800;
-  display: flex;
+  flex-grow: 0;
 }
 
 .tagline:after {
   content: "";
   position: absolute;
-  width: 100%;
+  width: 25%;
   transform: scaleX(0);
   height: 2px;
   bottom: 14px;
