@@ -209,4 +209,11 @@ export default {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+@media screen and (max-width: 790px) {
+  .contact {
+    display: flex;
+    overflow-x: auto;
+    justify-content: flex-start;
+  }
+}
 </style>
