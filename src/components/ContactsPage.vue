@@ -138,7 +138,6 @@ export default {
 
 .middle-text {
   margin-top: 10%;
-  margin-left: 24%;
 }
 .mapouter {
   position: relative;
@@ -160,16 +159,13 @@ export default {
   padding: 50px;
   margin: 20px;
 }
-textarea {
-  transform: 0;
-}
+
 .social-link {
   display: flex;
   justify-content: space-between;
   min-width: 18rem;
   list-style-type: none;
   padding: 0;
-  margin-left: 24%;
 }
 .social-link a {
   text-decoration: none;
@@ -204,6 +200,7 @@ textarea {
   position: relative;
   font-size: 14px;
   font-weight: 800;
+  display: flex;
 }
 
 .tagline:after {
