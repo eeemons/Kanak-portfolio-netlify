@@ -128,9 +128,8 @@ export default {
   font-family: "Lato", sans-serif;
 }
 .contact {
-  display: flex;
+  transform: translate(-2%, 10%);
   overflow-x: auto;
-  justify-content: center;
 }
 .studio-image {
   width: 15rem;
