@@ -130,14 +130,8 @@ export default {
 .contact {
   display: flex;
   overflow-x: auto;
-  justify-content: flex-start;
-  padding-left: 10%;
+  justify-content: center;
 }
-.studio-image {
-  width: 15rem;
-  height: 15rem;
-}
-
 .middle-text {
   margin-top: 10%;
 }
@@ -154,16 +148,7 @@ export default {
   width: 40rem;
   margin-top: 10%;
 }
-.ftxt {
-  background-color: lightgrey;
-  width: 300px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
-}
-textarea {
-  transform: 0;
-}
+
 .social-link {
   display: flex;
   justify-content: space-between;
