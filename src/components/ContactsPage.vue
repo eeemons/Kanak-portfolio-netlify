@@ -128,7 +128,7 @@ export default {
   font-family: "Lato", sans-serif;
 }
 .contact {
-  transform: translate(-2%, 10%);
+  transform: translate(0, 10%);
   overflow-x: auto;
 }
 .studio-image {
