@@ -130,8 +130,7 @@ export default {
 .contact {
   display: flex;
   overflow-x: auto;
-  justify-content: flex-start;
-  padding-left: 11vw;
+  justify-content: center;
 }
 .studio-image {
   width: 15rem;
