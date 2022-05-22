@@ -131,7 +131,7 @@ export default {
   display: flex;
   overflow-x: auto;
   justify-content: flex-start;
-  padding-left: 10%;
+  padding-left: 11vw;
 }
 .studio-image {
   width: 15rem;
