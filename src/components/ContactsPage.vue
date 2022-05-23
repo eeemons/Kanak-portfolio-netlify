@@ -144,9 +144,9 @@ export default {
 #gmap_canvas {
   overflow: hidden;
   background: none !important;
-  height: 28rem;
-  width: 40rem;
-  margin-top: 10%;
+  height: 23rem;
+  width: 35rem;
+  transform: translate(5%, 34%);
 }
 
 .social-link {

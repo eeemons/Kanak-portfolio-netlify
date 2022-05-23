@@ -158,46 +158,7 @@ button {
   transform: translate(-19px, -18px);
   transition: 0.3s ease-in-out;
 }
-@media screen and (max-width: 700px) {
-  .logo {
-    height: 2.5rem;
-    widows: 2.5rem;
-    padding-right: 0rem;
-  }
-  button {
-    background: none;
-    color: inherit;
-    border: none;
-    padding: 0;
-    font: inherit;
-    cursor: pointer;
-    outline: inherit;
-    padding-left: 0rem;
-  }
-  .text:focus {
-    border-radius: 1.563rem;
-    border: 1.5px solid black;
-    padding: 0.4rem;
-    width: 4rem;
-    height: 1rem;
-    caret-color: red;
-    text-align: right;
-  }
-  .menu {
-    padding: 3px;
-  }
-}
-@media screen and (max-width: 827px) {
-  .text:focus {
-    border-radius: 1.563rem;
-    border: 1.5px solid black;
-    padding: 0.4rem;
-    width: 6rem;
-    height: 1rem;
-    caret-color: red;
-    text-align: right;
-  }
-}
+
 .menu {
   display: inline-block;
   position: relative;
@@ -223,5 +184,67 @@ button {
 .menuHover:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+@media screen and (max-width: 850px) {
+  .top {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 1%;
+  }
+  .searchbar {
+    display: inline;
+    float: right;
+    padding-top: 3px;
+  }
+  .logo {
+    height: 30px;
+    width: 30px;
+    padding-right: 0;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+  .text {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1.563rem;
+    border: 1.5px solid black;
+    transition: 0.3s;
+    caret-color: red;
+  }
+  .text:focus {
+    border-radius: 1.563rem;
+    border: 1.5px black;
+    padding: 0.4rem;
+    width: 6rem;
+    height: 1rem;
+    caret-color: red;
+    text-align: right;
+    outline: 1px solid black;
+  }
+  .text:focus ~ .diagonal {
+    height: 0px;
+    transform: translate(-19px, -18px);
+    transition: 0.3s ease-in-out;
+  }
+  .menu {
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    margin-top: 5px;
+    margin-right: 3.5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
 }
 </style>
