@@ -1531,7 +1531,7 @@ export default {
       </div>
     </div>
     <div class="floatingWindow">
-      <a href="">Scrolling Grid</a>
+      <a href="">Scrolling-Grid</a>
       <a href="">Status</a>
       <a href="">Location</a>
     </div>
