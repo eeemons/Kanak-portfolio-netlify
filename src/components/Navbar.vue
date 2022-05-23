@@ -31,17 +31,17 @@ export default {
         <div :class="{ invisible: !isVisible }">
           <router-link class="no-decoration" :to="{ name: 'Projects' }">
             <ul class="menu">
-              <li>Projects</li>
+              <li class="menuHover">Projects</li>
             </ul>
           </router-link>
           <router-link class="no-decoration" :to="{ name: 'Info' }">
             <ul class="menu">
-              <li>Info</li>
+              <li class="menuHover">Info</li>
             </ul>
           </router-link>
           <router-link class="no-decoration" :to="{ name: 'Contacts' }">
             <ul class="menu">
-              <li>Contacts</li>
+              <li class="menuHover">Contacts</li>
             </ul>
           </router-link>
         </div>
@@ -97,20 +97,17 @@ li {
   transform: translateX(20px);
   opacity: 0;
 }
-.menu {
-  padding-top: 4px;
-}
+
 button {
   background: none;
   color: inherit;
   border: none;
   padding: 0;
+  margin: 0;
   font: inherit;
   cursor: pointer;
   outline: inherit;
-  padding-bottom: 15px;
   font-size: 20px;
-  padding-left: 4px;
 }
 
 .no-decoration {
@@ -204,46 +201,27 @@ button {
 .menu {
   display: inline-block;
   position: relative;
+  padding: 0;
+  margin-top: 5px;
+  margin-right: 8px;
+  margin-bottom: 0px;
+  margin-left: 0px;
 }
-.menu:after {
+.menuHover:after {
   content: "";
   background-color: rgb(20, 132, 177);
   position: absolute;
-  width: 70%;
+  width: 100%;
   transform: scaleX(0);
   height: 1px;
   bottom: 0;
-  left: 2rem;
+  left: 0;
   background-color: #0087ca;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
-.menu:hover:after {
+.menuHover:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
-}
-@media screen and (max-width: 700px) {
-  .menu {
-    display: inline-block;
-    position: relative;
-  }
-
-  .menu:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #0087ca;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  }
-
-  .menu:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
 }
 </style>
