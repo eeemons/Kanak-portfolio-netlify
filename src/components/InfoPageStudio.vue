@@ -22,10 +22,7 @@
     <q-card class="team-members" flat>
       <q-card-section horizontal>
         <q-card-section>
-          <q-img
-            class="col team-image"
-            src="../assets/1. Mahmudul Gani Kanak - Principal Architect2.jpg"
-          />
+          <q-img class="col team-image" src="../assets/1.jpg" />
 
           <div class="team-details">
             <p class="name">Mahmudul Haque Gani</p>
@@ -41,10 +38,7 @@
           </div>
         </q-card-section>
         <q-card-section>
-          <q-img
-            class="col team-image"
-            src="../assets/2. Ahsan Habib - Studio Head.jpg"
-          />
+          <q-img class="col team-image" src="../assets/2.jpg" />
 
           <div class="team-details">
             <p class="name">Ahsan Habib</p>
@@ -60,10 +54,7 @@
           </div>
         </q-card-section>
         <q-card-section>
-          <q-img
-            class="col team-image"
-            src="../assets/3. Argha Mitra Chowdhury - Architect.jpg"
-          />
+          <q-img class="col team-image" src="../assets/3.jpg" />
 
           <div class="team-details">
             <p class="name">Argha Mitra Chowdhury</p>
@@ -79,10 +70,7 @@
           </div>
         </q-card-section>
         <q-card-section>
-          <q-img
-            class="col team-image"
-            src="../assets/4. Khondokar Farhan Ishraq - Designer.jpg"
-          />
+          <q-img class="col team-image" src="../assets/4.jpg" />
 
           <div class="team-details">
             <p class="name">Khondokar Farhan Ishraq</p>
@@ -102,10 +90,7 @@
     <q-card class="team-members" flat>
       <q-card-section horizontal>
         <q-card-section>
-          <q-img
-            class="col team-image"
-            src="../assets/5. Muhammad Obaidulla -  Designer.jpg"
-          />
+          <q-img class="col team-image" src="../assets/5.jpg" />
 
           <div class="team-details">
             <p class="name">Muhammad Obaidulla</p>
@@ -121,10 +106,7 @@
           </div>
         </q-card-section>
         <q-card-section>
-          <q-img
-            class="col team-image"
-            src="../assets/6. Ahmed Abid Rezwan- Designer.jpg"
-          />
+          <q-img class="col team-image" src="../assets/6.jpg" />
 
           <div class="team-details">
             <p class="name">Ahmed Abid Rezwan</p>
@@ -140,10 +122,7 @@
           </div>
         </q-card-section>
         <q-card-section>
-          <q-img
-            class="col team-image"
-            src="../assets/7. Amdadul Haque Dipu - Architect.jpg"
-          />
+          <q-img class="col team-image" src="../assets/7.jpg" />
 
           <div class="team-details">
             <p class="name">Amdadul Haque Dipu</p>
