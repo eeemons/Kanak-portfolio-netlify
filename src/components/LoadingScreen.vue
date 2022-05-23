@@ -25,4 +25,9 @@ export default {
 .loadingScreen {
   transform: translate(40vw, 35vh);
 }
+@media screen and (max-width: 450px) {
+  .loadingScreen {
+    transform: translate(10vw, 40vh);
+  }
+}
 </style>
