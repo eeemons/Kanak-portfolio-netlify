@@ -133,7 +133,7 @@ export default {
   justify-content: center;
 }
 .middle-text {
-  margin-top: 10%;
+  margin-top: 31%;
 }
 .mapouter {
   position: relative;
@@ -144,9 +144,9 @@ export default {
 #gmap_canvas {
   overflow: hidden;
   background: none !important;
-  height: 23rem;
-  width: 34rem;
-  transform: translate(5%, 34%);
+  height: 27rem;
+  width: 38rem;
+  transform: translate(1.5%, 34%);
 }
 
 .social-link {
