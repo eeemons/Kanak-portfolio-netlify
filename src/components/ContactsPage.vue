@@ -145,7 +145,7 @@ export default {
   overflow: hidden;
   background: none !important;
   height: 23rem;
-  width: 35rem;
+  width: 34rem;
   transform: translate(5%, 34%);
 }
 
