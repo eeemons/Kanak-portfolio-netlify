@@ -141,8 +141,8 @@
           <q-img class="col team-image" src="../assets/9.jpg" />
 
           <div class="team-details">
-            <p class="name">Shompad Das</p>
-            <p class="designation">Site Engineer</p>
+            <p class="name">Sudhon Bhowmick</p>
+            <p class="designation">Architect</p>
             <div class="social-align">
               <a href="https://www.instagram.com/hideself/"
                 ><img class="social" src="../assets/INS.png"
@@ -158,11 +158,43 @@
     <q-card class="team-members" flat>
       <q-card-section horizontal>
         <q-card-section>
+          <q-img class="col team-image" src="../assets/12.jpeg" />
+
+          <div class="team-details">
+            <p class="name">Abdullah Rajon</p>
+            <p class="designation">Legal Advisor</p>
+            <div class="social-align">
+              <a href="https://www.instagram.com/abdullah.rajon"
+                ><img class="social" src="../assets/INS.png"
+              /></a>
+              <a href="https://www.linkedin.com/in/kanakmahmud/"
+                ><img class="social" src="../assets/Link.png"
+              /></a>
+            </div>
+          </div>
+        </q-card-section>
+        <q-card-section>
+          <q-img class="col team-image" src="../assets/9.jpg" />
+
+          <div class="team-details">
+            <p class="name">Shompad Das</p>
+            <p class="designation">Site Engineer</p>
+            <div class="social-align">
+              <a href="https://www.instagram.com/hideself/"
+                ><img class="social" src="../assets/INS.png"
+              /></a>
+              <a href="https://www.linkedin.com/in/kanakmahmud/"
+                ><img class="social" src="../assets/Link.png"
+              /></a>
+            </div>
+          </div>
+        </q-card-section>
+        <q-card-section>
           <q-img class="col team-image" src="../assets/10.jpg" />
 
           <div class="team-details">
             <p class="name">Khairul Islam</p>
-            <p class="designation"></p>
+            <p class="designation">Office Staff</p>
             <div class="social-align">
               <a href="https://www.instagram.com/oba_id_ullah/"
                 ><img class="social" src="../assets/INS.png"
@@ -173,12 +205,13 @@
             </div>
           </div>
         </q-card-section>
+
         <q-card-section>
           <q-img class="col team-image" src="../assets/11.jpg" />
 
           <div class="team-details">
             <p class="name">Chintu Pintu Mintu</p>
-            <p class="designation"></p>
+            <p class="designation">Entertainer</p>
             <div class="social-align">
               <a href="#"><img class="social" src="../assets/INS.png" /></a>
               <a href="#"><img class="social" src="../assets/Link.png" /></a>
