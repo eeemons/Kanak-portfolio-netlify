@@ -137,6 +137,54 @@
             </div>
           </div>
         </q-card-section>
+        <q-card-section>
+          <q-img class="col team-image" src="../assets/9.jpg" />
+
+          <div class="team-details">
+            <p class="name">Shompad Das</p>
+            <p class="designation">Site Engineer</p>
+            <div class="social-align">
+              <a href="https://www.instagram.com/hideself/"
+                ><img class="social" src="../assets/INS.png"
+              /></a>
+              <a href="https://www.linkedin.com/in/kanakmahmud/"
+                ><img class="social" src="../assets/Link.png"
+              /></a>
+            </div>
+          </div>
+        </q-card-section>
+      </q-card-section>
+    </q-card>
+    <q-card class="team-members" flat>
+      <q-card-section horizontal>
+        <q-card-section>
+          <q-img class="col team-image" src="../assets/10.jpg" />
+
+          <div class="team-details">
+            <p class="name">Khairul Islam</p>
+            <p class="designation"></p>
+            <div class="social-align">
+              <a href="https://www.instagram.com/oba_id_ullah/"
+                ><img class="social" src="../assets/INS.png"
+              /></a>
+              <a href="https://www.linkedin.com/in/kanakmahmud/"
+                ><img class="social" src="../assets/Link.png"
+              /></a>
+            </div>
+          </div>
+        </q-card-section>
+        <q-card-section>
+          <q-img class="col team-image" src="../assets/11.jpg" />
+
+          <div class="team-details">
+            <p class="name">Chintu Pintu Mintu</p>
+            <p class="designation"></p>
+            <div class="social-align">
+              <a href="#"><img class="social" src="../assets/INS.png" /></a>
+              <a href="#"><img class="social" src="../assets/Link.png" /></a>
+            </div>
+          </div>
+        </q-card-section>
       </q-card-section>
     </q-card>
   </div>
@@ -148,8 +196,8 @@
   font-family: "Lato", sans-serif;
 }
 .studio-image {
-  width: 15rem;
-  height: 15rem;
+  width: 200px;
+  height: 300px;
 }
 .card-width {
   width: 50%;
@@ -163,8 +211,9 @@
   margin-bottom: 60%;
 }
 .team-members {
-  transform: translate(28%, 0);
+  transform: translate(20%, 0);
   overflow-x: auto;
+  width: 150%;
 }
 .team-image {
   width: 200px;
