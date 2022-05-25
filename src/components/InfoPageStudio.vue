@@ -58,7 +58,7 @@
 
           <div class="team-details">
             <p class="name">Argha Mitra Chowdhury</p>
-            <p class="designation">Architect</p>
+            <p class="designation">Design Collaborator</p>
             <div class="social-align">
               <a href="https://www.instagram.com/argha_mitra_chowdhury/"
                 ><img class="social" src="../assets/INS.png"
@@ -138,7 +138,7 @@
           </div>
         </q-card-section>
         <q-card-section>
-          <q-img class="col team-image" src="../assets/9.jpg" />
+          <q-img class="col team-image" src="../assets/8.jpg" />
 
           <div class="team-details">
             <p class="name">Sudhon Bhowmick</p>
@@ -157,6 +157,18 @@
     </q-card>
     <q-card class="team-members" flat>
       <q-card-section horizontal>
+        <q-card-section>
+          <q-img class="col team-image" src="../assets/13.jpg" />
+
+          <div class="team-details">
+            <p class="name">Imran Nazir</p>
+            <p class="designation">Design Collaborator</p>
+            <div class="social-align">
+              <a href="#"><img class="social" src="../assets/INS.png" /></a>
+              <a href="#"><img class="social" src="../assets/Link.png" /></a>
+            </div>
+          </div>
+        </q-card-section>
         <q-card-section>
           <q-img class="col team-image" src="../assets/12.jpeg" />
 
@@ -205,7 +217,10 @@
             </div>
           </div>
         </q-card-section>
-
+      </q-card-section>
+    </q-card>
+    <q-card class="team-members" flat>
+      <q-card-section horizontal>
         <q-card-section>
           <q-img class="col team-image" src="../assets/11.jpg" />
 
@@ -229,22 +244,20 @@
   font-family: "Lato", sans-serif;
 }
 .studio-image {
-  width: 200px;
-  height: 300px;
+  width: 300px;
+  height: 400px;
 }
 .card-width {
   width: 50%;
-  padding-top: 10rem;
+  margin-top: 10%;
 }
-.middle-text {
-  padding-top: 3.5rem;
-}
+
 .my-card {
-  transform: translate(28%, 0);
+  transform: translate(44%, 0);
   margin-bottom: 60%;
 }
 .team-members {
-  transform: translate(20%, 0);
+  transform: translate(30%, 0);
   overflow-x: auto;
   width: 150%;
 }
@@ -282,5 +295,8 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.middle-text {
+  margin-top: 30%;
 }
 </style>

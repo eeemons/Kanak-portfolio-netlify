@@ -1548,13 +1548,14 @@ export default {
   justify-content: center;
   flex-wrap: wrap;
   max-height: 1rem;
+  margin-top: 3%;
 }
 .floatingWindow {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
-  padding-left: 10%;
-  padding-top: 3%;
+  margin-left: 15%;
+  margin-top: 3%;
 }
 .floatingWindow a {
   text-decoration: none;

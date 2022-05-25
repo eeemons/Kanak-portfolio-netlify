@@ -8,54 +8,63 @@ function toggleLeftDrawer() {
 </script>
 
 <template>
-  <q-drawer
-    v-model="leftDrawerOpen"
-    show-if-above
-    :width="200"
-    :breakpoint="500"
-  >
-    <q-list padding class="menu-list">
-      <q-item clickable v-ripple>
-        <q-item-section class="text-center"> Studio </q-item-section>
-      </q-item>
-      <q-item clickable v-ripple>
-        <q-item-section class="text-center"> News </q-item-section>
-      </q-item>
-      <q-item clickable v-ripple>
-        <q-item-section class="text-center"> About </q-item-section>
-      </q-item>
-      <q-item clickable v-ripple>
-        <q-item-section class="text-center"> Awards </q-item-section>
-      </q-item>
-      <q-item clickable v-ripple>
-        <q-item-section class="text-center"> Events </q-item-section>
-      </q-item>
-      <q-item clickable v-ripple>
-        <q-item-section class="text-center"> Video </q-item-section>
-      </q-item>
-      <q-item clickable v-ripple>
-        <q-item-section class="text-center"> Shop </q-item-section>
-      </q-item>
-      <q-item clickable v-ripple>
-        <q-item-section class="text-center"> Jobs </q-item-section>
-      </q-item>
-      <q-item clickable v-ripple>
-        <q-item-section class="text-center"> Contact </q-item-section>
-      </q-item>
-
-      <q-item>
-        <q-item-section> </q-item-section>
-      </q-item>
-      <q-item clickable v-ripple>
-        <q-item-section class="text-center"> Chinta </q-item-section>
-      </q-item>
-    </q-list>
-  </q-drawer>
-  <q-page-container class="bg-primary">
-    <!-- <div class="bg-primary row justify-center items-center">
-      <h3>Info Page</h3>
-    </div> -->
-    <info-page-studio />
-  </q-page-container>
+  <div class="sidenav">
+    <a href="#Studio">Studio</a>
+    <a href="#News">News</a>
+    <a href="#About">About</a>
+    <a href="#Award">Award</a>
+    <a href="#Shop">Shop</a>
+    <a href="#Jobs">Jobs</a>
+    <a href="contacts">Contact</a>
+  </div>
+  <div class="mainContent">
+    <InfoPageStudio />
+  </div>
 </template>
-<style scoped></style>
+<style scoped>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  width: 6.5%;
+  height: 53%;
+  position: fixed;
+  top: 20px;
+  left: 10px;
+  overflow-x: hidden;
+  transform: translate(190%, 30%);
+  border-right: 1px solid red;
+}
+
+.sidenav a {
+  text-decoration: none;
+  font-size: 1vw;
+  color: black;
+  display: block;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.sidenav a:hover {
+  color: red;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+@media screen and (max-height: 414px) {
+  .sidenav a {
+    font-size: 4vw;
+    margin-left: 0;
+  }
+}
+</style>
