@@ -23,7 +23,10 @@ export default {
   height: 160px;
 }
 .loadingScreen {
-  transform: translate(40vw, 35vh);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  transform: translate(3.5%, 260.2%);
 }
 @media screen and (max-width: 450px) {
   .loadingScreen {
