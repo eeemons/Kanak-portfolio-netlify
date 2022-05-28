@@ -26,7 +26,6 @@ export default {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 1px solid black;
 }
 .loadingScreen img {
   width: auto;
