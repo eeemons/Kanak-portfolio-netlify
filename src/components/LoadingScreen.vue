@@ -18,19 +18,18 @@ export default {
 </template>
 
 <style>
+.loadingScreen {
+  background-size: 100%;
+  width: auto;
+  height: 160px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+}
 .loadingScreen img {
   width: auto;
   height: 160px;
-}
-.loadingScreen {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  transform: translate(3.5%, 260.2%);
-}
-@media screen and (max-width: 450px) {
-  .loadingScreen {
-    transform: translate(15%, 200%);
-  }
 }
 </style>
