@@ -10,13 +10,15 @@ function toggleLeftDrawer() {
 
 <template>
   <div class="sidenav">
-    <a href="#Studio">Studio</a>
-    <a href="#News">News</a>
-    <a href="#About">About</a>
-    <a href="#Award">Award</a>
-    <a href="#Shop">Shop</a>
-    <a href="#Jobs">Jobs</a>
-    <a href="contacts">Contact</a>
+    <a class="links" href="#News">News</a>
+    <a class="links" href="#About">About</a>
+    <a class="links" href="#Studio">Studio</a>
+    <a class="links" href="#Award">Award</a>
+    <a class="links" href="#Shop">Shop</a>
+    <a class="links" href="#Jobs">Jobs</a>
+    <router-link class="no-decoration" :to="{ name: 'Contacts' }">
+      <a class="links" href="">Contacts</a>
+    </router-link>
   </div>
   <div class="mainContent">
     <InfoPageStudio />
@@ -27,7 +29,10 @@ function toggleLeftDrawer() {
 body {
   font-family: "Lato", sans-serif;
 }
-
+.no-decoration {
+  text-decoration: none;
+  color: inherit;
+}
 .sidenav {
   width: 6.5%;
   height: 53%;
@@ -39,7 +44,7 @@ body {
   border-right: 1px solid red;
 }
 
-.sidenav a {
+.links {
   text-decoration: none;
   font-size: 1vw;
   color: black;
@@ -53,20 +58,5 @@ body {
 
 .sidenav a:hover {
   color: red;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-  .sidenav a {
-    font-size: 18px;
-  }
-}
-@media screen and (max-height: 414px) {
-  .sidenav a {
-    font-size: 4vw;
-    margin-left: 0;
-  }
 }
 </style>
