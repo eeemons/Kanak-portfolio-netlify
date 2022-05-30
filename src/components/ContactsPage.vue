@@ -121,8 +121,8 @@ export default {
       :TogglePopup="() => TogglePopup('buttonTrigger')"
     >
     </FeedbackForm>
-    <Footer />
   </div>
+  <Footer />
 </template>
 
 <style scoped>
