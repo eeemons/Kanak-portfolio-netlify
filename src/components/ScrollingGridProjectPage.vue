@@ -1,0 +1,1613 @@
+<script setup>
+import { ref } from "vue";
+import StatusProjectPage from "./StatusProjectPage.vue";
+const slideName = ref("");
+const transitiontime = ref(2000);
+</script>
+
+<script>
+export default {
+  data() {
+    return {
+      container: false,
+    };
+  },
+
+  created() {
+    setTimeout(() => (this.container = true), 3810);
+  },
+};
+</script>
+
+<template>
+  <div class="outside" v-show="container">
+    <div class="container">
+      <div class="row">
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/01.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/02.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/03.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/04.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/05.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/06.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/07.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/08.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/09.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/10.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/11.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/12.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/13.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/14.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/15.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/16.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/17.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/18.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/19.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/20.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/01.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/02.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/03.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/04.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/05.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/06.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/07.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/08.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/09.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/10.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/11.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/12.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/13.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/14.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/15.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/16.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/17.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/18.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/19.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/20.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/01.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/02.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/03.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/04.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/05.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/06.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/07.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/08.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/09.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/10.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/11.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/12.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/13.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/14.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/15.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/16.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/17.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/18.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/19.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/20.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/01.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/02.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/03.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/04.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/05.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/06.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/07.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/08.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/09.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/10.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/11.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/12.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/13.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/14.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/15.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/16.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/17.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/18.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/19.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/20.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/01.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/02.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/03.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/04.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/05.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/06.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/07.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/08.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/09.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/10.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/11.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/12.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/13.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/14.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/15.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/16.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/17.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/18.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/19.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outsideWrap">
+          <img
+            src="https://s3.brilliant.com.bd/chinta/small/20.png"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">
+              <p>
+                Project: Project_name <br />
+                Location &emsp; Date:00/00/00
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+<style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+}
+.outside {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  margin-top: 4%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 57vh;
+  width: fit-content;
+}
+
+.row {
+  display: grid;
+  float: left;
+}
+.container::-webkit-scrollbar {
+  width: 3px; /* width of the entire scrollbar */
+}
+
+.container::-webkit-scrollbar-track {
+  background: lightgray; /* color of the tracking area */
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: red; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+}
+
+.container img {
+  width: auto;
+  height: 18.8vh;
+  padding: 1% 1% 0 1%;
+}
+.container img:hover {
+  cursor: pointer;
+}
+
+.outsideWrap {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0.4rem;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.6;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+
+.outsideWrap:hover .overlay {
+  height: 29%;
+}
+
+.text {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  -webkit-transform: translate(-40%, -50%);
+  -ms-transform: translate(-40%, -50%);
+  transform: translate(-40%, -50%);
+}
+</style>

@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import InfoPageStudio from "./InfoPageStudio.vue";
+import Footer from "./Footer.vue";
 const leftDrawerOpen = ref(true);
 function toggleLeftDrawer() {
   leftDrawerOpen.value = !leftDrawerOpen.value;
@@ -20,6 +21,7 @@ function toggleLeftDrawer() {
   <div class="mainContent">
     <InfoPageStudio />
   </div>
+  <Footer />
 </template>
 <style scoped>
 body {

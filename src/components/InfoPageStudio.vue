@@ -125,13 +125,14 @@
           <q-img class="col team-image" src="../assets/7.jpg" />
 
           <div class="team-details">
-            <p class="name">Amdadul Haque Dipu</p>
+            <p class="name">Md. Arif Mahtab Kabir Onjon</p>
             <p class="designation">Architect</p>
             <div class="social-align">
-              <a href="https://www.instagram.com/hideself/"
+              <a href="https://www.instagram.com/kabir_onjon/"
                 ><img class="social" src="../assets/INS.png"
               /></a>
-              <a href="https://www.linkedin.com/in/kanakmahmud/"
+              <a
+                href="https://www.linkedin.com/in/md-arif-mahtab-kabir-onjon-a69635240/"
                 ><img class="social" src="../assets/Link.png"
               /></a>
             </div>
@@ -170,7 +171,7 @@
           </div>
         </q-card-section>
         <q-card-section>
-          <q-img class="col team-image" src="../assets/12.jpeg" />
+          <q-img class="col team-image" src="../assets/12.jpg" />
 
           <div class="team-details">
             <p class="name">Abdullah Rajon</p>

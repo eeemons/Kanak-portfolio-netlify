@@ -1,10 +1,12 @@
 <script>
 import { ref } from "vue";
 import FeedbackForm from "./FeedbackForm.vue";
+import Footer from "./Footer.vue";
 
 export default {
   components: {
     FeedbackForm,
+    Footer,
   },
   data() {
     return {
@@ -119,6 +121,7 @@ export default {
       :TogglePopup="() => TogglePopup('buttonTrigger')"
     >
     </FeedbackForm>
+    <Footer />
   </div>
 </template>
 

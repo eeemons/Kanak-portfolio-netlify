@@ -73,6 +73,9 @@ export default {
   justify-content: center;
   position: relative;
   padding-top: 1%;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 li {
   list-style-type: none;
@@ -83,6 +86,7 @@ li {
   transform-origin: right;
   transition: transform 0.4s ease-in-out;
   margin-left: 35%;
+  margin-left: auto !important;
 }
 .slide-fade-enter-active {
   transition: all 0.3s ease-out;
