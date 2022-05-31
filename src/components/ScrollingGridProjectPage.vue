@@ -24,11 +24,13 @@ export default {
     <div class="container">
       <div class="row">
         <div class="outsideWrap">
-          <img
-            src="https://s3.brilliant.com.bd/chinta/small/01.png"
-            alt="Avatar"
-            class="image"
-          />
+          <router-link class="no-decoration" :to="{ name: 'ProjectGallery' }">
+            <img
+              src="https://i.ibb.co/gjCvRjg/17.jpg"
+              alt="Avatar"
+              class="image"
+            />
+          </router-link>
           <div class="overlay">
             <div class="text">
               <p>

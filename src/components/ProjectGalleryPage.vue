@@ -4,26 +4,28 @@ import Footer from "./Footer.vue";
 
 <template>
   <div class="card">
-    <img
-      src="https://i.ibb.co/gjCvRjg/17.jpg"
-      alt="Avatar"
-      style="width: 100%"
-    />
-    <div class="container">
-      <p class="title">Aloks's Vacation House</p>
-      <p class="other">Type: Residential</p>
-      <p class="other">Status: Idea</p>
-      <p class="other">Principal Architect: Mahmudul Gani Kanak</p>
-      <p class="other">
-        Deasign Team: Argha Mitra Chowdhury Ahsan Habib Puja Bashak
-      </p>
-      <p class="other">Landscape:</p>
-      <p class="other">Majeda Tumpa Engineer:</p>
-      <p class="other">Task Construction Firm:</p>
-      <p class="other">Photograph:</p>
-      <p class="other">
-        Location: Bashundhara, Dhaka, Bangladesh Size: 7200sft Year: 2021
-      </p>
+    <div class="sectionOne">
+      <img
+        src="https://i.ibb.co/gjCvRjg/17.jpg"
+        alt="Avatar"
+        style="width: 100%"
+      />
+      <div class="container">
+        <p class="title">Aloks's Vacation House</p>
+        <p class="other">Type: Residential</p>
+        <p class="other">Status: Idea</p>
+        <p class="other">Principal Architect: Mahmudul Gani Kanak</p>
+        <p class="other">
+          Deasign Team: Argha Mitra Chowdhury Ahsan Habib Puja Bashak
+        </p>
+        <p class="other">Landscape:</p>
+        <p class="other">Majeda Tumpa Engineer:</p>
+        <p class="other">Task Construction Firm:</p>
+        <p class="other">Photograph:</p>
+        <p class="other">
+          Location: Bashundhara, Dhaka, Bangladesh Size: 7200sft Year: 2021
+        </p>
+      </div>
     </div>
     <div class="writeup">
       <div class="row">
@@ -45,6 +47,9 @@ import Footer from "./Footer.vue";
         </div>
       </div>
     </div>
+    <div class="projectDisplay">
+      <img src="https://i.ibb.co/BVwh8LL/32.jpg" alt="32" border="0" />
+    </div>
   </div>
   <footer>
     <Footer />
@@ -57,8 +62,11 @@ import Footer from "./Footer.vue";
   font-family: "Lato", sans-serif;
 }
 .card {
-  width: 50%;
+  width: 48%;
   margin: 0 auto;
+}
+.sectionOne {
+  height: 150vh;
 }
 .container {
   padding: 0;
@@ -75,7 +83,7 @@ import Footer from "./Footer.vue";
 
 .writeup {
   box-sizing: border-box;
-  margin-top: 5%;
+  height: 100vh;
 }
 
 /* Create two equal columns that floats next to each other */
@@ -90,11 +98,8 @@ import Footer from "./Footer.vue";
   width: 100%;
   height: auto;
 }
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.projectDisplay img {
+  width: 100%;
+  height: auto;
 }
 </style>
