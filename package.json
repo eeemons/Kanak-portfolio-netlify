@@ -12,6 +12,7 @@
     "quasar": "^2.5.5",
     "vue": "^3.2.25",
     "vue-easy-lightbox": "^1.4.1",
+    "vue-pure-lightbox": "^3.2.0",
     "vue-router": "^4.0.13"
   },
   "devDependencies": {

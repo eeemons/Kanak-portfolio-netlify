@@ -43,17 +43,15 @@ import Footer from "./Footer.vue";
           </p>
         </div>
         <div class="column">
-          <img src="https://i.ibb.co/gjCvRjg/17.jpg" alt="17" border="0" />
+          <img src="https://i.ibb.co/yh7qcRD/25.jpg" alt="25" border="0" />
         </div>
       </div>
     </div>
     <div class="projectDisplay">
       <img src="https://i.ibb.co/BVwh8LL/32.jpg" alt="32" border="0" />
     </div>
-  </div>
-  <footer>
     <Footer />
-  </footer>
+  </div>
 </template>
 
 <style>
@@ -93,10 +91,14 @@ import Footer from "./Footer.vue";
   height: auto;
   display: flex;
   justify-content: center;
+  min-width: 200px;
 }
 .column img {
   width: 100%;
   height: auto;
+}
+.projectDisplay {
+  height: 100vh;
 }
 .projectDisplay img {
   width: 100%;
