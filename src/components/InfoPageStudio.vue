@@ -122,7 +122,7 @@
           </div>
         </q-card-section>
         <q-card-section>
-          <q-img class="col team-image" src="../assets/7.jpg" />
+          <q-img class="col team-image" src="../assets/7.jpeg" />
 
           <div class="team-details">
             <p class="name">Md. Arif Mahtab Kabir Onjon</p>

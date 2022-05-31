@@ -4,6 +4,7 @@ import ContactsPage from "../components/ContactsPage.vue";
 import ProjectsPage from "../components/ProjectsPage.vue";
 import InfoPage from "../components/InfoPage.vue";
 import HomePage from "../components/HomePage.vue";
+import ProjectGalleryPage from "../components/ProjectGalleryPage.vue";
 
 const routes = [
   {
@@ -25,6 +26,11 @@ const routes = [
     path: "/contacts",
     name: "Contacts",
     component: ContactsPage,
+  },
+  {
+    path: "/projectgallery",
+    name: "ProjectGallery",
+    component: ProjectGalleryPage,
   },
 ];
 
