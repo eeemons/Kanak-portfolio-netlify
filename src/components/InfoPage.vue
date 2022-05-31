@@ -10,9 +10,9 @@ function toggleLeftDrawer() {
 
 <template>
   <div class="sidenav">
+    <a class="links" href="#Studio">Studio</a>
     <a class="links" href="#News">News</a>
     <a class="links" href="#About">About</a>
-    <a class="links" href="#Studio">Studio</a>
     <a class="links" href="#Award">Award</a>
     <a class="links" href="#Shop">Shop</a>
     <a class="links" href="#Jobs">Jobs</a>
