@@ -22,7 +22,7 @@ export default {
 </script>
 
 <template>
-  <div class="container" v-show="container">
+  <div v-show="container">
     <ScrollingGridProjectPage />
     <!-- <StatusProjectPage /> -->
     <div class="floatingWindow">
@@ -31,16 +31,16 @@ export default {
       <a href="">Location</a>
     </div>
   </div>
-  <Footer />
+  <div class="footer">
+    <Footer />
+  </div>
 </template>
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap");
 * {
   font-family: "Lato", sans-serif;
 }
-.container {
-  height: 90vh;
-}
+
 .floatingWindow {
   display: flex;
   flex-direction: column;
@@ -56,10 +56,10 @@ export default {
 .floatingWindow a:hover {
   color: red;
 }
-@media screen and (max-width: 820px) {
-  .container {
-    height: 100vh;
-    transform: translate(22%, 0);
-  }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 </style>

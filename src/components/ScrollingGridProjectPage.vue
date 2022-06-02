@@ -1544,22 +1544,22 @@ export default {
 }
 .outside {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .container {
   margin-top: 4%;
   overflow-y: auto;
-  overflow-x: hidden;
+  overflow-x: auto;
   height: 57vh;
   width: fit-content;
 }
 
 .row {
   display: grid;
-  float: left;
 }
 .container::-webkit-scrollbar {
   width: 3px; /* width of the entire scrollbar */
+  height: 3px;
 }
 
 .container::-webkit-scrollbar-track {
@@ -1572,9 +1572,10 @@ export default {
 }
 
 .container img {
-  width: auto;
-  height: 18.8vh;
+  width: 100%;
+  height: 18.5vh;
   padding: 1% 1% 0 1%;
+  min-width: 195px;
 }
 .container img:hover {
   cursor: pointer;
@@ -1582,7 +1583,6 @@ export default {
 
 .outsideWrap {
   position: relative;
-  width: 100%;
 }
 
 .overlay {
