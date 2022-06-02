@@ -82,12 +82,10 @@ import LightBox from "./LightBox.vue";
   padding: 0;
   margin: 0;
 }
-
 .writeup {
   box-sizing: border-box;
   height: 100vh;
 }
-
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;

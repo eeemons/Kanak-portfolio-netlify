@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h4>LightBox</h4>
-  </div>
+  <div></div>
 </template>
 
 <script>

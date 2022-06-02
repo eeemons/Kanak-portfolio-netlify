@@ -13,7 +13,7 @@ export default {
 </script>
 
 <template>
-  <div class="container" v-show="home">
+  <div class="footerContainer" v-show="home">
     <div class="socials">
       <a
         href="https://www.instagram.com/explore/locations/105527485342163/chinta/"
@@ -26,7 +26,9 @@ export default {
         <img class="linkedin" src="../assets/Link.png" alt="" />
       </a>
     </div>
-    <div class="copyright">Copyright reserved</div>
+    <div class="copyright">
+      Copyright © 2022 Chinta Sthapatya. All Rights Reserved
+    </div>
   </div>
 </template>
 
@@ -34,13 +36,15 @@ export default {
 footer {
   padding-top: 5%;
 }
-.container {
+.footerContainer {
+  padding-top: 10%;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 .socials {
-  display: inline;
-  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
 }
 .instagram {
   width: 15px;
