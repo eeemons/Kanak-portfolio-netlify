@@ -26,9 +26,9 @@ export default {
     <ScrollingGridProjectPage />
     <!-- <StatusProjectPage /> -->
     <div class="floatingWindow">
-      <a href="">Scrolling-Grid</a>
-      <a href="">Status</a>
-      <a href="">Location</a>
+      <a href="#">Scrolling-Grid</a>
+      <a href="#">Status</a>
+      <a href="#">Location</a>
     </div>
   </div>
   <Footer />
@@ -50,6 +50,7 @@ export default {
   text-decoration: none;
   color: black;
   font-weight: 800;
+  width: fit-content;
 }
 .floatingWindow a:hover {
   color: red;
