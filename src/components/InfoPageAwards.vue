@@ -1,23 +1,27 @@
 <template>
-  <div class="awardDetail">
-    <p>Award year</p>
-    <p>Award name</p>
-    <p>Award type</p>
-  </div>
-  <div class="awardDetail">
-    <p>Award year</p>
-    <p>Award name</p>
-    <p>Award type</p>
-  </div>
-  <div class="awardDetail">
-    <p>Award year</p>
-    <p>Award name</p>
-    <p>Award type</p>
-  </div>
-  <div class="awardDetail">
-    <p>Award year</p>
-    <p>Award name</p>
-    <p>Award type</p>
+  <div class="container">
+    <div class="awardDetail">
+      <p>2022</p>
+      <p>Special mention</p>
+      <p>Inbetween death</p>
+      <p>Organized by arctwist</p>
+    </div>
+    <div class="awardDetail">
+      <p>2018</p>
+      <p>First and Third</p>
+      <p>Poster design competition</p>
+      <p>Organized by IAB</p>
+    </div>
+    <div class="awardDetail">
+      <p>Award year</p>
+      <p>Award name</p>
+      <p>Award type</p>
+    </div>
+    <div class="awardDetail">
+      <p>Award year</p>
+      <p>Award name</p>
+      <p>Award type</p>
+    </div>
   </div>
 </template>
 
@@ -25,11 +29,17 @@
 export default {};
 </script>
 
-<style>
-.awardDetail {
-  margin-left: 10%;
+<style scoped>
+.container {
+  width: 100vw;
+  height: 100vh;
   margin-top: 10%;
+}
+.awardDetail {
+  margin-left: 20%;
   display: flex;
-  justify-content: space-around;
+}
+.awardDetail p {
+  margin: 5px;
 }
 </style>
