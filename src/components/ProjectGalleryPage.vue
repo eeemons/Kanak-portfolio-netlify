@@ -1,5 +1,6 @@
 <script setup>
 import Footer from "./Footer.vue";
+import LightBox from "./LightBox.vue";
 </script>
 
 <template>
@@ -49,6 +50,9 @@ import Footer from "./Footer.vue";
     </div>
     <div class="projectDisplay">
       <img src="https://i.ibb.co/BVwh8LL/32.jpg" alt="32" border="0" />
+    </div>
+    <div>
+      <Lightbox />
     </div>
     <Footer />
   </div>
