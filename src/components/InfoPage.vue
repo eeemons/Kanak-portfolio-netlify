@@ -3,6 +3,7 @@ import { ref } from "vue";
 import InfoPageStudio from "./InfoPageStudio.vue";
 import Footer from "./Footer.vue";
 import InfoPageAbout from "./InfoPageAbout.vue";
+import InfoPageAwards from "./InfoPageAwards.vue";
 
 const leftDrawerOpen = ref(true);
 function toggleLeftDrawer() {
@@ -14,7 +15,7 @@ function toggleLeftDrawer() {
   <div class="sidenav">
     <a class="links" href="#about">About</a>
     <a class="links" href="#studio">Studio</a>
-    <a class="links" href="#Award">Award</a>
+    <a class="links" href="#awards">Award</a>
     <a class="links" href="#News">News</a>
     <a class="links" href="#Jobs">Jobs</a>
     <a class="links" href="#Shop">Shop</a>
@@ -28,6 +29,9 @@ function toggleLeftDrawer() {
     </div>
     <div id="studio">
       <InfoPageAbout />
+    </div>
+    <div id="awards">
+      <InfoPageAwards />
     </div>
   </div>
   <Footer />
