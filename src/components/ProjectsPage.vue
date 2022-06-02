@@ -31,9 +31,7 @@ export default {
       <a href="">Location</a>
     </div>
   </div>
-  <div class="footer">
-    <Footer />
-  </div>
+  <Footer />
 </template>
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap");
@@ -55,11 +53,5 @@ export default {
 }
 .floatingWindow a:hover {
   color: red;
-}
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
 }
 </style>
