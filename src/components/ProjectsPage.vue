@@ -22,7 +22,7 @@ export default {
 </script>
 
 <template>
-  <div v-show="container">
+  <div class="container" v-show="container">
     <ScrollingGridProjectPage />
     <!-- <StatusProjectPage /> -->
     <div class="floatingWindow">
@@ -38,7 +38,9 @@ export default {
 * {
   font-family: "Lato", sans-serif;
 }
-
+.container {
+  height: 90vh;
+}
 .floatingWindow {
   display: flex;
   flex-direction: column;
@@ -53,5 +55,11 @@ export default {
 }
 .floatingWindow a:hover {
   color: red;
+}
+@media screen and (max-width: 820px) {
+  .container {
+    height: 100vh;
+    transform: translate(22%, 0);
+  }
 }
 </style>
