@@ -2,6 +2,8 @@
 import { ref } from "vue";
 import InfoPageStudio from "./InfoPageStudio.vue";
 import Footer from "./Footer.vue";
+import InfoPageAbout from "./InfoPageAbout.vue";
+
 const leftDrawerOpen = ref(true);
 function toggleLeftDrawer() {
   leftDrawerOpen.value = !leftDrawerOpen.value;
@@ -10,8 +12,8 @@ function toggleLeftDrawer() {
 
 <template>
   <div class="sidenav">
-    <a class="links" href="#About">About</a>
-    <a class="links" href="#Studio">Studio</a>
+    <a class="links" href="#about">About</a>
+    <a class="links" href="#studio">Studio</a>
     <a class="links" href="#Award">Award</a>
     <a class="links" href="#News">News</a>
     <a class="links" href="#Jobs">Jobs</a>
@@ -21,13 +23,19 @@ function toggleLeftDrawer() {
     </router-link>
   </div>
   <div class="mainContent">
-    <InfoPageStudio />
+    <div id="about">
+      <InfoPageStudio />
+    </div>
+    <div id="studio">
+      <InfoPageAbout />
+    </div>
   </div>
   <Footer />
 </template>
 <style scoped>
 body {
   font-family: "Lato", sans-serif;
+  scroll-behavior: smooth;
 }
 .no-decoration {
   text-decoration: none;
@@ -42,6 +50,7 @@ body {
   overflow-x: hidden;
   transform: translate(190%, 30%);
   border-right: 1px solid red;
+  scroll-behavior: smooth;
 }
 
 .links {
