@@ -1556,6 +1556,7 @@ export default {
 
 .row {
   display: grid;
+  float: left;
 }
 .container::-webkit-scrollbar {
   width: 3px; /* width of the entire scrollbar */
