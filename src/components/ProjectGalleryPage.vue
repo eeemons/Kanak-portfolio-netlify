@@ -57,7 +57,7 @@ import LightBox from "./LightBox.vue";
       <img src="https://i.ibb.co/BVwh8LL/32.jpg" alt="32" border="0" />
     </div>
     <div>
-      <Lightbox />
+      <LightBox />
     </div>
     <Footer />
   </div>
@@ -84,6 +84,7 @@ import LightBox from "./LightBox.vue";
 .title {
   font-weight: 800;
   margin: 0;
+  font-size: 20px;
 }
 .other {
   padding: 0;
