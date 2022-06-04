@@ -45,7 +45,11 @@ import LightBox from "./LightBox.vue";
           </p>
         </div>
         <div class="column">
-          <img src="https://i.ibb.co/yh7qcRD/25.jpg" alt="25" border="0" />
+          <img
+            src="https://i.ibb.co/8g72zh7/Port-20-2.jpg"
+            alt="Port-20-2"
+            border="0"
+          />
         </div>
       </div>
     </div>
@@ -70,6 +74,8 @@ import LightBox from "./LightBox.vue";
 }
 .sectionOne {
   height: 100vh;
+  margin-bottom: 100px;
+  min-height: 800px;
 }
 .container {
   padding: 0;
@@ -86,6 +92,7 @@ import LightBox from "./LightBox.vue";
 .writeup {
   box-sizing: border-box;
   height: 30vh;
+  min-height: 400px;
 }
 /* Create two equal columns that floats next to each other */
 .column {
@@ -101,7 +108,7 @@ import LightBox from "./LightBox.vue";
   height: auto;
 }
 .projectDisplay {
-  height: 100vh;
+  margin-top: 300px;
 }
 .projectDisplay img {
   width: 100%;
