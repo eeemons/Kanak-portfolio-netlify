@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.12.5",
+    "fslightbox-vue": "^2.0.1",
     "quasar": "^2.5.5",
     "vue": "^3.2.25",
     "vue-cool-lightbox": "^2.7.4",
