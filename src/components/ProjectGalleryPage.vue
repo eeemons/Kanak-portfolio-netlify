@@ -23,10 +23,9 @@ import LightBox from "./LightBox.vue";
         <p class="other"><b>Engineer:</b> Task</p>
         <p class="other"><b>Task Construction Firm:</b></p>
         <p class="other"><b>Photograph:</b></p>
-        <p class="other">
-          <b>Location:</b> Bashundhara, Dhaka, Bangladesh Size: 7200sft Year:
-          2021
-        </p>
+        <p class="other"><b>Location:</b> Bashundhara, Dhaka, Bangladesh</p>
+        <p class="other"><b>Size:</b> 7200sft</p>
+        <p class="other"><b>Year:</b>2021</p>
       </div>
     </div>
     <div class="writeup">
@@ -55,6 +54,9 @@ import LightBox from "./LightBox.vue";
     </div>
     <div class="projectDisplay">
       <img src="https://i.ibb.co/BVwh8LL/32.jpg" alt="32" border="0" />
+      <img src="https://i.ibb.co/HHKDP5z/02.gif" alt="02" border="0" />
+      <img src="https://i.ibb.co/L5TDT6Z/28.jpg" alt="28" border="0" />
+      <img src="https://i.ibb.co/yh7qcRD/25.jpg" alt="25" border="0" />
     </div>
     <div>
       <LightBox />
@@ -85,6 +87,7 @@ import LightBox from "./LightBox.vue";
   font-weight: 800;
   margin: 0;
   padding-bottom: 5px;
+  font-size: 20px;
 }
 .other {
   padding: 0;

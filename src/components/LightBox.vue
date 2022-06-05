@@ -59,39 +59,19 @@ export default {
     <!-- <button @click="showMultiple">Show a group of pictures.</button> -->
     <div class="gridContainer" @click="showMultiple">
       <div class="imgGrid">
-        <div class="column">
-          <img src="https://i.ibb.co/f8drz3t/1.jpg" alt="1" border="0" />
-          <img src="https://i.ibb.co/zHhB7H0/2.jpg" alt="2" border="0" />
-          <img src="https://i.ibb.co/2hfsf8z/3.jpg" alt="3" border="0" />
-          <img src="https://i.ibb.co/GRjKVjW/4.jpg" alt="4" border="0" />
-        </div>
-        <div class="column">
-          <img src="https://i.ibb.co/BCBfjv2/5.jpg" alt="5" border="0" />
-          <img src="https://i.ibb.co/K05ZVbn/6.jpg" alt="6" border="0" />
-          <img src="https://i.ibb.co/xHt3WMz/7.jpg" alt="7" border="0" />
-          <img src="https://i.ibb.co/QrcsCBY/8-1.jpg" alt="8-1" border="0" />
-        </div>
-        <div class="column">
-          <img src="https://i.ibb.co/JtC4zDy/16.jpg" alt="16" border="0" />
-          <img src="https://i.ibb.co/r2TR8vT/15.jpg" alt="15" border="0" />
-          <img src="https://i.ibb.co/10fWvDY/18.jpg" alt="18" border="0" />
-          <img src="https://i.ibb.co/JBbBzHd/20-2.jpg" alt="20-2" border="0" />
-        </div>
+        <img src="https://i.ibb.co/BVwh8LL/32.jpg" alt="" />
+        <img src="https://i.ibb.co/BVwh8LL/32.jpg" alt="" />
+        <img src="https://i.ibb.co/BVwh8LL/32.jpg" alt="" />
       </div>
       <div class="imgGrid">
-        <div class="column">
-          <img src="https://i.ibb.co/Vv3J4YS/20.jpg" alt="20" border="0" />
-          <img src="https://i.ibb.co/XzLyfN3/21.jpg" alt="21" border="0" />
-          <img src="https://i.ibb.co/c8GkFwg/24.jpg" alt="24" border="0" />
-          <img src="https://i.ibb.co/yh7qcRD/25.jpg" alt="25" border="0" />
-        </div>
-        <div class="column">
-          <img src="https://i.ibb.co/M6NDP93/26.jpg" alt="26" border="0" />
-          <img src="https://i.ibb.co/c6rx081/27-2.jpg" alt="27-2" border="0" />
-          <img src="https://i.ibb.co/dDwpFpk/27.jpg" alt="27" border="0" />
-          <img src="https://i.ibb.co/L5TDT6Z/28.jpg" alt="28" border="0" />
-          <img src="https://i.ibb.co/BVwh8LL/32.jpg" alt="32" border="0" />
-        </div>
+        <img src="https://i.ibb.co/BVwh8LL/32.jpg" alt="" />
+        <img src="https://i.ibb.co/BVwh8LL/32.jpg" alt="" />
+        <img src="https://i.ibb.co/BVwh8LL/32.jpg" alt="" />
+      </div>
+      <div class="imgGrid">
+        <img src="https://i.ibb.co/BVwh8LL/32.jpg" alt="" />
+        <img src="https://i.ibb.co/BVwh8LL/32.jpg" alt="" />
+        <img src="https://i.ibb.co/BVwh8LL/32.jpg" alt="" />
       </div>
     </div>
     <!-- all props & events -->
@@ -115,9 +95,11 @@ export default {
 }
 .imgGrid {
   display: flex;
-  flex-wrap: wrap;
+}
+.imgGrid img {
   width: auto;
-  height: 100%;
+  height: 18.4vh;
+  padding: 2px;
 }
 
 .column {
