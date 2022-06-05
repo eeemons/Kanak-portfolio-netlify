@@ -84,11 +84,7 @@ import LightBox from "./LightBox.vue";
 .title {
   font-weight: 800;
   margin: 0;
-<<<<<<< HEAD
   padding-bottom: 5px;
-=======
-  font-size: 20px;
->>>>>>> ce5f3d6cd6ef1bca90fb8ac9c3ccd64264cc24d8
 }
 .other {
   padding: 0;
