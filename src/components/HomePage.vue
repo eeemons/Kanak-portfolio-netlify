@@ -35,67 +35,55 @@ export default {
       >
         <q-carousel-slide name="a" class="column no-wrap flex-center">
           <img
-            src="https://s3.brilliant.com.bd/chinta/small/01.png"
+            src="https://i.ibb.co/h8p5Ns3/01-Front-Slide.jpg"
             class="responsive transition-image"
           />
         </q-carousel-slide>
         <q-carousel-slide name="b" class="column no-wrap flex-center">
           <img
-            src="https://s3.brilliant.com.bd/chinta/small/02.png"
+            src="https://i.ibb.co/5B1D95D/02-Front-Slide.jpg"
             class="responsive transition-image"
           />
         </q-carousel-slide>
         <q-carousel-slide name="c" class="column no-wrap flex-center">
           <img
-            src="https://s3.brilliant.com.bd/chinta/small/03.png"
+            src="https://i.ibb.co/RyTL21n/03-Front-Slide.jpg"
             class="responsive transition-image"
           />
         </q-carousel-slide>
         <q-carousel-slide name="d" class="column no-wrap flex-center">
           <img
-            src="https://s3.brilliant.com.bd/chinta/small/04.png"
+            src="https://i.ibb.co/m9kdV5t/04-Front-Slide.jpg"
             class="responsive transition-image"
           />
         </q-carousel-slide>
         <q-carousel-slide name="e" class="column no-wrap flex-center">
           <img
-            src="https://s3.brilliant.com.bd/chinta/small/05.png"
+            src="https://i.ibb.co/1z0vZPd/05-Front-Slide.jpg"
             class="responsive transition-image"
           />
         </q-carousel-slide>
         <q-carousel-slide name="f" class="column no-wrap flex-center">
           <img
-            src="https://s3.brilliant.com.bd/chinta/small/06.png"
+            src="https://i.ibb.co/NLNBnWR/07-Front-Slide.jpg"
             class="responsive transition-image"
           />
         </q-carousel-slide>
         <q-carousel-slide name="g" class="column no-wrap flex-center">
           <img
-            src="https://s3.brilliant.com.bd/chinta/small/07.png"
+            src="https://i.ibb.co/d02gf5y/08-Front-Slide.jpg"
             class="responsive transition-image"
           />
         </q-carousel-slide>
         <q-carousel-slide name="h" class="column no-wrap flex-center">
           <img
-            src="https://s3.brilliant.com.bd/chinta/small/08.png"
+            src="https://i.ibb.co/BrhgnZ0/09-Front-Slide.jpg"
             class="responsive transition-image"
           />
         </q-carousel-slide>
         <q-carousel-slide name="i" class="column no-wrap flex-center">
           <img
-            src="https://s3.brilliant.com.bd/chinta/small/09.png"
-            class="responsive transition-image"
-          />
-        </q-carousel-slide>
-        <q-carousel-slide name="j" class="column no-wrap flex-center">
-          <img
-            src="https://s3.brilliant.com.bd/chinta/small/10.png"
-            class="responsive transition-image"
-          />
-        </q-carousel-slide>
-        <q-carousel-slide name="k" class="column no-wrap flex-center">
-          <img
-            src="https://s3.brilliant.com.bd/chinta/small/11.png"
+            src="https://i.ibb.co/dpVLdz7/10-Front-Slide.jpg"
             class="responsive transition-image"
           />
         </q-carousel-slide>
