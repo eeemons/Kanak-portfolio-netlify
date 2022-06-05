@@ -13,18 +13,19 @@ import LightBox from "./LightBox.vue";
       />
       <div class="container">
         <p class="title">Aloks's Vacation House</p>
-        <p class="other">Type: Residential</p>
-        <p class="other">Status: Idea</p>
-        <p class="other">Principal Architect: Mahmudul Gani Kanak</p>
+        <p class="other"><b>Type:</b> Residential</p>
+        <p class="other"><b>Status:</b> Idea</p>
+        <p class="other"><b>Principal Archite</b>ct: Mahmudul Gani Kanak</p>
         <p class="other">
-          Deasign Team: Argha Mitra Chowdhury Ahsan Habib Puja Bashak
+          <b>Deasign Team:</b> Argha Mitra Chowdhury Ahsan Habib Puja Bashak
         </p>
-        <p class="other">Landscape:</p>
-        <p class="other">Majeda Tumpa Engineer:</p>
-        <p class="other">Task Construction Firm:</p>
-        <p class="other">Photograph:</p>
+        <p class="other"><b>Landscape:</b> Majeda Tumpa</p>
+        <p class="other"><b>Engineer:</b> Task</p>
+        <p class="other"><b>Task Construction Firm:</b></p>
+        <p class="other"><b>Photograph:</b></p>
         <p class="other">
-          Location: Bashundhara, Dhaka, Bangladesh Size: 7200sft Year: 2021
+          <b>Location:</b> Bashundhara, Dhaka, Bangladesh Size: 7200sft Year:
+          2021
         </p>
       </div>
     </div>
@@ -44,7 +45,11 @@ import LightBox from "./LightBox.vue";
           </p>
         </div>
         <div class="column">
-          <img src="https://i.ibb.co/yh7qcRD/25.jpg" alt="25" border="0" />
+          <img
+            src="https://i.ibb.co/8g72zh7/Port-20-2.jpg"
+            alt="Port-20-2"
+            border="0"
+          />
         </div>
       </div>
     </div>
@@ -52,7 +57,7 @@ import LightBox from "./LightBox.vue";
       <img src="https://i.ibb.co/BVwh8LL/32.jpg" alt="32" border="0" />
     </div>
     <div>
-      <Lightbox />
+      <LightBox />
     </div>
     <Footer />
   </div>
@@ -68,7 +73,9 @@ import LightBox from "./LightBox.vue";
   margin: 0 auto;
 }
 .sectionOne {
-  height: 150vh;
+  height: 100vh;
+  margin-bottom: 100px;
+  min-height: 800px;
 }
 .container {
   padding: 0;
@@ -77,7 +84,11 @@ import LightBox from "./LightBox.vue";
 .title {
   font-weight: 800;
   margin: 0;
+<<<<<<< HEAD
   padding-bottom: 5px;
+=======
+  font-size: 20px;
+>>>>>>> ce5f3d6cd6ef1bca90fb8ac9c3ccd64264cc24d8
 }
 .other {
   padding: 0;
@@ -85,7 +96,8 @@ import LightBox from "./LightBox.vue";
 }
 .writeup {
   box-sizing: border-box;
-  height: 100vh;
+  height: 30vh;
+  min-height: 400px;
 }
 /* Create two equal columns that floats next to each other */
 .column {
@@ -101,7 +113,7 @@ import LightBox from "./LightBox.vue";
   height: auto;
 }
 .projectDisplay {
-  height: 100vh;
+  margin-top: 300px;
 }
 .projectDisplay img {
   width: 100%;

@@ -20,9 +20,7 @@ export default {
       >
         <img class="instagram" src="../assets/INS.png" alt="" />
       </a>
-      <a
-        href="https://www.linkedin.com/search/results/all/?keywords=chinta%20sthapatya&origin=GLOBAL_SEARCH_HEADER&sid=(4U"
-      >
+      <a href="https://www.linkedin.com/company/chinta-sthapatya">
         <img class="linkedin" src="../assets/Link.png" alt="" />
       </a>
     </div>
