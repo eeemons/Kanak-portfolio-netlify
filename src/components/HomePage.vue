@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from "vue";
-const slideName = ref("");
-const transitiontime = ref(8000);
+const slide = ref("");
+const transitiontime = ref(true);
 </script>
 
 <script>
@@ -24,60 +24,70 @@ export default {
       <!-- <div class="row justify-center items-center"> -->
 
       <q-carousel
-        v-model="slideName"
+        v-model="slide"
         :autoplay="transitiontime"
         no-route-fullscreen-exit
         animated
         infinite
         height="90%"
         class="text-purple rounded-borders"
+        transition-next="slide-left"
+        transition-prev="slide-right"
       >
         <q-carousel-slide name="a" class="column no-wrap flex-center">
           <img
             src="https://i.ibb.co/mSh95s4/01-Front-Slide.jpg"
             class="responsive transition-image"
+            rel="preload"
           />
         </q-carousel-slide>
         <q-carousel-slide name="b" class="column no-wrap flex-center">
           <img
             src="https://i.ibb.co/S597Prm/02-1-Front-Slide.jpg"
             class="responsive transition-image"
+            rel="preload"
           />
         </q-carousel-slide>
         <q-carousel-slide name="c" class="column no-wrap flex-center">
           <img
             src="https://i.ibb.co/0tt4pMK/02-2-Front-Slide.jpg"
             class="responsive transition-image"
+            rel="preload"
           />
         </q-carousel-slide>
         <q-carousel-slide name="d" class="column no-wrap flex-center">
           <img
             src="https://i.ibb.co/YPgLQ0g/02-Front-Slide.jpg"
             class="responsive transition-image"
+            rel="preload"
           />
         </q-carousel-slide>
         <q-carousel-slide name="e" class="column no-wrap flex-center">
           <img
             src="https://i.ibb.co/HgxSz4r/03-Front-Slide.jpg"
             class="responsive transition-image"
+            rel="preload"
           />
         </q-carousel-slide>
         <q-carousel-slide name="f" class="column no-wrap flex-center">
           <img
             src="https://i.ibb.co/dfwjj68/04-Front-Slide.jpg"
             class="responsive transition-image"
+            rel="preload"
           />
         </q-carousel-slide>
         <q-carousel-slide name="g" class="column no-wrap flex-center">
           <img
             src="https://i.ibb.co/fry25mt/05-Front-Slide.jpg"
             class="responsive transition-image"
+            rel="preload"
           />
         </q-carousel-slide>
         <q-carousel-slide name="h" class="column no-wrap flex-center">
           <img
             src="https://i.ibb.co/XpxQjf4/10-Front-Slide.jpg"
             class="responsive transition-image"
+            rel="preload"
           />
         </q-carousel-slide>
       </q-carousel>

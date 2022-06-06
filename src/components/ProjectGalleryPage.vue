@@ -54,8 +54,11 @@ import LightBox from "./LightBox.vue";
     </div>
     <div class="projectDisplay">
       <img src="https://i.ibb.co/BVwh8LL/32.jpg" alt="32" border="0" />
+      <div class="spacer"></div>
       <img src="https://i.ibb.co/HHKDP5z/02.gif" alt="02" border="0" />
+      <div class="spacer"></div>
       <img src="https://i.ibb.co/L5TDT6Z/28.jpg" alt="28" border="0" />
+      <div class="spacer"></div>
       <img src="https://i.ibb.co/yh7qcRD/25.jpg" alt="25" border="0" />
     </div>
     <div>
@@ -112,10 +115,13 @@ import LightBox from "./LightBox.vue";
   height: auto;
 }
 .projectDisplay {
-  margin-top: 300px;
+  margin-top: 250px;
 }
 .projectDisplay img {
   width: 100%;
   height: auto;
+}
+.spacer {
+  margin-top: 100px;
 }
 </style>
