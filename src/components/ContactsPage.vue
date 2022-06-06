@@ -40,14 +40,7 @@ export default {
           <q-card-section horizontal>
             <q-card-section>
               <div class="middle-text">
-                <textarea
-                  :class="{ invisible: (isVisible = !isVisible) }"
-                  v-model="feedbacktxt"
-                  name=""
-                  id=""
-                  cols="30"
-                  rows="10"
-                ></textarea>
+                <p class="textLines">{{ feedbacktxt }}</p>
                 <div class="tagline" v-show="!show">
                   <p @click="show = !show">DROP US A LINE</p>
                 </div>
@@ -211,6 +204,10 @@ export default {
 .tagline:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+.textLines {
+  width: 150px;
+  height: 210px;
 }
 @media screen and (max-width: 790px) {
   .contact {
