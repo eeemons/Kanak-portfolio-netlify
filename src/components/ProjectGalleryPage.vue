@@ -64,8 +64,8 @@ import LightBox from "./LightBox.vue";
     <div>
       <LightBox />
     </div>
+    <Footer />
   </div>
-  <Footer />
 </template>
 
 <style>
