@@ -9,7 +9,24 @@ export default {
     return {
       navbar: false,
       isVisible: false,
+      timeoutID: 0,
     };
+  },
+
+  methods: {
+    handleClick() {
+      if (this.isVisible === false) {
+        this.isVisible = true;
+        this.timeoutID = setTimeout(() => {
+          this.isVisible = false;
+        }, 10000);
+      } else {
+        this.isVisible = false;
+        if (this.timeoutID > 0) {
+          clearTimeout(this.timeoutID);
+        }
+      }
+    },
   },
 
   created() {
@@ -46,14 +63,8 @@ export default {
           </router-link>
         </div>
       </transition>
-      <button v-on:click="isVisible = !isVisible" v-show="!isVisible">
-        &vellip;
-      </button>
-      <button
-        style="color: red"
-        v-on:click="isVisible = !isVisible"
-        v-show="isVisible"
-      >
+      <button v-on:click="handleClick" v-show="!isVisible">&vellip;</button>
+      <button style="color: red" v-on:click="handleClick" v-show="isVisible">
         &#124;
       </button>
       <div v-on:click="isVisible = false" class="searchbar">
