@@ -3,7 +3,6 @@ import { ref } from "vue";
 const slideName = ref("");
 const transitiontime = ref(8000);
 </script>
-+
 
 <script>
 export default {
