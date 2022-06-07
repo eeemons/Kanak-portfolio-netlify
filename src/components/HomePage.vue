@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from "vue";
+import Footer from "./Footer.vue";
 const slide = ref("");
 const transitiontime = ref(true);
 </script>
@@ -94,6 +95,7 @@ export default {
       <!-- </div> -->
     </q-page-container>
   </div>
+  <Footer />
 </template>
 
 <style scoped>
