@@ -6,7 +6,7 @@ import LightBox from "./LightBox.vue";
 export default {
   data() {
     return {
-      visible: false,
+      visible: true,
     };
   },
 };
@@ -30,16 +30,31 @@ export default {
         </p>
         <p class="other"><b>Landscape:</b> Majeda Tumpa</p>
         <p class="other"><b>Engineer:</b> Task</p>
-        <div v-show="visible">
+
+        <div v-show="!visible">
           <p class="other"><b>Task Construction Firm:</b></p>
           <p class="other"><b>Photograph:</b></p>
           <p class="other"><b>Location:</b> Bashundhara, Dhaka, Bangladesh</p>
           <p class="other"><b>Size:</b> 7200sft</p>
           <p class="other"><b>Year:</b>2021</p>
         </div>
-        <a class="visibility" href="#" @click="visible = !visible"
-          >Read more specs</a
+
+        <button
+          class="visibility"
+          href="#"
+          v-show="visible"
+          @click="visible = !visible"
         >
+          More specs
+        </button>
+        <button
+          class="visibility"
+          href="#"
+          v-show="!visible"
+          @click="visible = !visible"
+        >
+          Less specs
+        </button>
       </div>
     </div>
     <div class="writeup">
@@ -139,8 +154,13 @@ export default {
   margin-top: 100px;
 }
 .visibility {
-  text-decoration: none;
-  font-weight: 1000;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
   color: black;
 }
 </style>
