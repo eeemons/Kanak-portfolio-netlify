@@ -2,6 +2,15 @@
 import Footer from "./Footer.vue";
 import LightBox from "./LightBox.vue";
 </script>
+<script>
+export default {
+  data() {
+    return {
+      visible: false,
+    };
+  },
+};
+</script>
 
 <template>
   <div class="card">
@@ -21,11 +30,16 @@ import LightBox from "./LightBox.vue";
         </p>
         <p class="other"><b>Landscape:</b> Majeda Tumpa</p>
         <p class="other"><b>Engineer:</b> Task</p>
-        <p class="other"><b>Task Construction Firm:</b></p>
-        <p class="other"><b>Photograph:</b></p>
-        <p class="other"><b>Location:</b> Bashundhara, Dhaka, Bangladesh</p>
-        <p class="other"><b>Size:</b> 7200sft</p>
-        <p class="other"><b>Year:</b>2021</p>
+        <div v-show="visible">
+          <p class="other"><b>Task Construction Firm:</b></p>
+          <p class="other"><b>Photograph:</b></p>
+          <p class="other"><b>Location:</b> Bashundhara, Dhaka, Bangladesh</p>
+          <p class="other"><b>Size:</b> 7200sft</p>
+          <p class="other"><b>Year:</b>2021</p>
+        </div>
+        <a class="visibility" href="#" @click="visible = !visible"
+          >Read more specs</a
+        >
       </div>
     </div>
     <div class="writeup">
@@ -123,5 +137,10 @@ import LightBox from "./LightBox.vue";
 }
 .spacer {
   margin-top: 100px;
+}
+.visibility {
+  text-decoration: none;
+  font-weight: 1000;
+  color: black;
 }
 </style>
