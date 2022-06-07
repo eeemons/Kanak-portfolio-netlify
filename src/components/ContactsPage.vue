@@ -129,7 +129,9 @@ export default {
   justify-content: center;
 }
 .middle-text {
-  margin-top: 31%;
+  margin-top: 27%;
+  display: flex;
+  flex-direction: column;
 }
 .mapouter {
   position: relative;
@@ -206,9 +208,17 @@ export default {
   transform-origin: bottom left;
 }
 .textLines {
-  width: 150px;
-  height: 210px;
+  width: 70% !important;
+  max-width: 300px;
+  height: 210px !important;
+  max-height: 210px;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+  overflow: auto;
 }
+
 @media screen and (max-width: 790px) {
   .contact {
     display: flex;
